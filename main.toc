@@ -1,0 +1,2 @@
+\beamer@sectionintoc {1}{Derivatives}{2}{0}{1}
+\beamer@sectionintoc {2}{Integrals}{9}{0}{2}

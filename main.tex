@@ -1,0 +1,83 @@
+\documentclass[handout]{beamer}
+\usepackage[utf8]{inputenc}
+
+\title{Multivariable Calculus (CS+AI)}
+\author{Aron Hardeman}
+\date{\today}
+
+
+
+%\iffalse
+\usetheme{Madrid}
+%\usecolortheme{whale}
+\setbeamercolor{palette primary}{bg=olive!70!black}
+\setbeamercolor{palette secondary}{bg=olive!90!black}
+\setbeamercolor{palette tertiary}{bg=olive!50!black}
+\useoutertheme[subsection=false]{miniframes}
+\setbeamertemplate{section in toc shaded}[default][44]
+\setbeamertemplate{subsection in toc shaded}[default][44]
+%\fi
+% a terrible color scheme BELOW, normal color scheme ABOVE
+\iffalse
+\usetheme{Madrid}
+%\usecolortheme{whale}
+\setbeamercolor{palette primary}{bg=violet,fg=yellow!80!white}
+\setbeamercolor{palette secondary}{bg=cyan!90!violet,fg=lime!10!white}
+\setbeamercolor{palette tertiary}{bg=yellow!10!orange,fg=green!10!white}
+ \setbeamercolor{background canvas}{bg=yellow!80!cyan}
+\useoutertheme[subsection=false]{miniframes}
+\setbeamertemplate{section in toc shaded}[default][44]
+\setbeamertemplate{subsection in toc shaded}[default][44]
+\fi
+
+
+\newenvironment{theorybox}
+{
+\begin{tcolorbox}[colback=yellow!50,colframe=green!25!red,title=Directional derivative]
+}
+{
+\end{tcolorbox}
+}
+\newcommand{\vabla}{\vec{\nabla}}
+\newcommand{\lenvec}[1]{|\vec{#1}|}
+\newcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\blue}[1]{\textcolor{blue}{#1}}
+\newcommand{\violet}[1]{\textcolor{violet}{#1}}
+\newcommand{\yellow}[1]{\textcolor{orange}{#1}}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb,amsmath}
+\usepackage{tikz}
+\usepackage{tikz-qtree}
+\usepackage{color}
+\usepackage{fancyhdr}
+\usepackage{lplfitch}
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage[listings,theorems]{tcolorbox}
+\usepackage{float}
+\usepackage{natbib}
+\usepackage{stmaryrd}
+\usepackage{relsize}
+\usepackage{tensor}
+\usepackage{pgfplots}
+\usepgfplotslibrary{polar}
+\usepgfplotslibrary{fillbetween}
+\usetikzlibrary{quotes,angles}
+\usetikzlibrary{babel}
+\usetikzlibrary{shapes,positioning,intersections}
+\usepackage{verbatim}
+\pgfplotsset{width=8cm,compat=1.9}
+
+\DeclareMathOperator{\atantwo}{atan2}
+\DeclareMathOperator{\Arg}{Arg}
+
+
+\begin{document}
+
+\maketitle
+
+%\input{linalg.tex}
+\input{calc.tex}
+
+\end{document}
