@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.2)  2 JUN 2023 23:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.2)  7 JUN 2023 23:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -900,13 +900,28 @@ LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
 (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
+(/usr/share/texlive/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box93
+\UL@hyphenbox=\box94
+\UL@skip=\skip79
+\UL@hook=\toks57
+\UL@height=\dimen322
+\UL@pe=\count355
+\UL@pixel=\dimen323
+\ULC@box=\box95
+Package: ulem 2019/11/18
+\ULdepth=\dimen324
+)
+(/usr/share/texlive/texmf-dist/tex/latex/cancel/cancel.sty
+Package: cancel 2013/04/12 v2.2 Cancel math terms
+)
 (/usr/share/texlive/texmf-dist/tex/latex/tensor/tensor.sty
 Package: tensor 2004/12/20 v2.1 tensor indices package (PGR)
-\tnsr@Sps=\toks57
-\tnsr@Sbs=\toks58
-\tnsr@Spe=\toks59
-\tnsr@Sbe=\toks60
-\ncld@Mno=\toks61
+\tnsr@Sps=\toks58
+\tnsr@Sbs=\toks59
+\tnsr@Spe=\toks60
+\tnsr@Sbe=\toks61
+\ncld@Mno=\toks62
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplots.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
@@ -914,12 +929,12 @@ Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
-\t@pgfplots@toka=\toks62
-\t@pgfplots@tokb=\toks63
-\t@pgfplots@tokc=\toks64
-\pgfplots@tmpa=\dimen322
-\c@pgfplots@coordindex=\count355
-\c@pgfplots@scanlineindex=\count356
+\t@pgfplots@toka=\toks63
+\t@pgfplots@tokb=\toks64
+\t@pgfplots@tokc=\toks65
+\pgfplots@tmpa=\dimen325
+\c@pgfplots@coordindex=\count356
+\c@pgfplots@scanlineindex=\count357
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
 .tex))
@@ -936,14 +951,14 @@ tructure.code.tex)
 tructureext.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
 .code.tex
-\c@pgfplotsarray@tmp=\count357
+\c@pgfplotsarray@tmp=\count358
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
 x.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
 d.code.tex
-\c@pgfplotstable@counta=\count358
-\t@pgfplotstable@a=\toks65
+\c@pgfplotstable@counta=\count359
+\t@pgfplotstable@a=\toks66
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
 .code.tex)
@@ -955,7 +970,7 @@ de.tex))
 .tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
 fshading.code.tex
-\c@pgfplotslibrarysurf@no=\count359
+\c@pgfplotslibrarysurf@no=\count360
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
 shading.pgfsys-pdftex.def)))
@@ -982,16 +997,16 @@ e.tex)
 zlibrarydecorations.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
 e.tex
-\pgfdecoratedcompleteddistance=\dimen323
-\pgfdecoratedremainingdistance=\dimen324
-\pgfdecoratedinputsegmentcompleteddistance=\dimen325
-\pgfdecoratedinputsegmentremainingdistance=\dimen326
-\pgf@decorate@distancetomove=\dimen327
-\pgf@decorate@repeatstate=\count360
-\pgfdecorationsegmentamplitude=\dimen328
-\pgfdecorationsegmentlength=\dimen329
+\pgfdecoratedcompleteddistance=\dimen326
+\pgfdecoratedremainingdistance=\dimen327
+\pgfdecoratedinputsegmentcompleteddistance=\dimen328
+\pgfdecoratedinputsegmentremainingdistance=\dimen329
+\pgf@decorate@distancetomove=\dimen330
+\pgf@decorate@repeatstate=\count361
+\pgfdecorationsegmentamplitude=\dimen331
+\pgfdecorationsegmentlength=\dimen332
 )
-\tikz@lib@dec@box=\box93
+\tikz@lib@dec@box=\box96
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarydecorations.pathmorphing.code.tex
@@ -1003,13 +1018,13 @@ zlibrarydecorations.pathreplacing.code.tex
 decorations.pathreplacing.code.tex))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.co
 ntourlua.code.tex)
-\pgfplots@numplots=\count361
-\pgfplots@xmin@reg=\dimen330
-\pgfplots@xmax@reg=\dimen331
-\pgfplots@ymin@reg=\dimen332
-\pgfplots@ymax@reg=\dimen333
-\pgfplots@zmin@reg=\dimen334
-\pgfplots@zmax@reg=\dimen335
+\pgfplots@numplots=\count362
+\pgfplots@xmin@reg=\dimen333
+\pgfplots@xmax@reg=\dimen334
+\pgfplots@ymin@reg=\dimen335
+\pgfplots@ymax@reg=\dimen336
+\pgfplots@zmin@reg=\dimen337
+\pgfplots@zmax@reg=\dimen338
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryplotmarks.code.tex
@@ -1029,7 +1044,7 @@ etween.code.tex
 zlibraryintersections.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersection
 s.code.tex
-\pgf@intersect@solutions=\count362
+\pgf@intersect@solutions=\count363
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrarydecor
 ations.softclip.code.tex
@@ -1096,26 +1111,26 @@ File: tikzlibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
 s.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodepartlowerbox=\box94
-\pgfnodeparttwobox=\box95
-\pgfnodepartthreebox=\box96
-\pgfnodepartfourbox=\box97
-\pgfnodeparttwentybox=\box98
-\pgfnodepartnineteenbox=\box99
-\pgfnodeparteighteenbox=\box100
-\pgfnodepartseventeenbox=\box101
-\pgfnodepartsixteenbox=\box102
-\pgfnodepartfifteenbox=\box103
-\pgfnodepartfourteenbox=\box104
-\pgfnodepartthirteenbox=\box105
-\pgfnodeparttwelvebox=\box106
-\pgfnodepartelevenbox=\box107
-\pgfnodeparttenbox=\box108
-\pgfnodepartninebox=\box109
-\pgfnodeparteightbox=\box110
-\pgfnodepartsevenbox=\box111
-\pgfnodepartsixbox=\box112
-\pgfnodepartfivebox=\box113
+\pgfnodepartlowerbox=\box97
+\pgfnodeparttwobox=\box98
+\pgfnodepartthreebox=\box99
+\pgfnodepartfourbox=\box100
+\pgfnodeparttwentybox=\box101
+\pgfnodepartnineteenbox=\box102
+\pgfnodeparteighteenbox=\box103
+\pgfnodepartseventeenbox=\box104
+\pgfnodepartsixteenbox=\box105
+\pgfnodepartfifteenbox=\box106
+\pgfnodepartfourteenbox=\box107
+\pgfnodepartthirteenbox=\box108
+\pgfnodeparttwelvebox=\box109
+\pgfnodepartelevenbox=\box110
+\pgfnodeparttenbox=\box111
+\pgfnodepartninebox=\box112
+\pgfnodeparteightbox=\box113
+\pgfnodepartsevenbox=\box114
+\pgfnodepartsixbox=\box115
+\pgfnodepartfivebox=\box116
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarypositioning.code.tex
@@ -1123,30 +1138,30 @@ File: tikzlibrarypositioning.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count363
-\l__pdf_internal_box=\box114
+\l__color_backend_stack_int=\count364
+\l__pdf_internal_box=\box117
 )
 (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1184,17 +1199,17 @@ LaTeX Font Info:    ... okay on input line 76.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count364
-\scratchdimen=\dimen336
-\scratchbox=\box115
-\nofMPsegments=\count365
-\nofMParguments=\count366
-\everyMPshowfont=\toks66
-\MPscratchCnt=\count367
-\MPscratchDim=\dimen337
-\MPnumerator=\count368
-\makeMPintoPDFobject=\count369
-\everyMPtoPDFconversion=\toks67
+\scratchcounter=\count365
+\scratchdimen=\dimen339
+\scratchbox=\box118
+\nofMPsegments=\count366
+\nofMParguments=\count367
+\everyMPshowfont=\toks67
+\MPscratchCnt=\count368
+\MPscratchDim=\dimen340
+\MPnumerator=\count369
+\makeMPintoPDFobject=\count370
+\everyMPtoPDFconversion=\toks68
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1204,7 +1219,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring OFF on input line 76.
+Package hyperref Info: Link coloring OFF on input line 79.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1215,68 +1230,68 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count370
+\c@section@level=\count371
 )
-LaTeX Info: Redefining \ref on input line 76.
-LaTeX Info: Redefining \pageref on input line 76.
-LaTeX Info: Redefining \nameref on input line 76.
+LaTeX Info: Redefining \ref on input line 79.
+LaTeX Info: Redefining \pageref on input line 79.
+LaTeX Info: Redefining \nameref on input line 79.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 76.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 79.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 76.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 79.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 76.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 76.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 76.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 76.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 76.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 79.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 76.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 76.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 76.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 79.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 76.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 76.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 76.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 79.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 76.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 76.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 79.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 76.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 79.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 76.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 76.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 76.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 76.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 76.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 76.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 76.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 79.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 79.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 7
-6.
+9.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 7
-6.
+9.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 76.
+ut line 79.
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
 -English.dict
@@ -1302,51 +1317,49 @@ Dictionary: translator-numbers-dictionary, Language: English
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-\c@lstlisting=\count371
+\c@lstlisting=\count372
 
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.18} (current compat level: 1.9).
 
 (./main.nav) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-] (./calc.tex (./main.toc)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
-
+] (./calc.tex (./main.toc
+LaTeX Font Info:    Trying to load font information for U+msa on input line 6.
  (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
-
+LaTeX Font Info:    Trying to load font information for U+msb on input line 6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+stmry on input line 2
-0.
+LaTeX Font Info:    Trying to load font information for U+stmry on input line 6
+.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 20.
+ut line 6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-)
+))
 [2
 
 ] [3]
 
 LaTeX Font Warning: Font shape `OT1/cmss/bx/it' undefined
-(Font)              using `OT1/cmss/bx/n' instead on input line 31.
+(Font)              using `OT1/cmss/bx/n' instead on input line 32.
 
 [4
 
 ] [5
 
-] [6
+] (./main.toc) [6
 
-]
-Overfull \hbox (1.88129pt too wide) detected at line 92
+] [7]
+Overfull \hbox (1.88129pt too wide) detected at line 94
 \OT1/mathkerncmss/m/sl/10.95 D[]f\OT1/cmss/m/n/10.95 (\OT1/mathkerncmss/m/sl/10
 .95 x\OML/cmm/m/it/10.95 ; \OT1/mathkerncmss/m/sl/10.95 y\OML/cmm/m/it/10.95 ; 
 \OT1/mathkerncmss/m/sl/10.95 z\OT1/cmss/m/n/10.95 ) = \OT1/mathkerncmss/m/sl/10
@@ -1365,71 +1378,99 @@ athkerncmss/m/sl/10.95 y\OML/cmm/m/it/10.95 ; \OT1/mathkerncmss/m/sl/10.95 z\OT
 1/cmss/m/n/10.95 ) \OMS/cmsy/m/n/10.95 ^^A []
  []
 
-[7
-
-]
-Overfull \vbox (1.96155pt too high) detected at line 110
- []
-
 [8
 
-] (./main.toc) [9
+]
+Overfull \vbox (1.96155pt too high) detected at line 112
+ []
 
-] [10] [11
+[9
 
-] [12
+] (./main.toc) [10
+
+] [11] [12
 
 ] [13
 
 ]
-Package pgfplots info on input line 204: fill between: activating layered graph
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 160.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 160.
+
+(./main.toc) [14
+
+] [15] [16
+
+] [17
+
+] [18
+
+]
+Package pgfplots info on input line 250: fill between: activating layered graph
 ics
-\pgf@layerbox@axis background=\box116
-\pgf@layerboxsaved@axis background=\box117
-\pgf@layerbox@axis grid=\box118
-\pgf@layerboxsaved@axis grid=\box119
-\pgf@layerbox@axis ticks=\box120
-\pgf@layerboxsaved@axis ticks=\box121
-\pgf@layerbox@axis lines=\box122
-\pgf@layerboxsaved@axis lines=\box123
-\pgf@layerbox@axis tick labels=\box124
-\pgf@layerboxsaved@axis tick labels=\box125
-\pgf@layerbox@pre main=\box126
-\pgf@layerboxsaved@pre main=\box127
-\pgf@layerbox@axis descriptions=\box128
-\pgf@layerboxsaved@axis descriptions=\box129
-\pgf@layerbox@axis foreground=\box130
-\pgf@layerboxsaved@axis foreground=\box131
-Package pgfplots info on input line 204: Setting layers 'axis background,axis g
+\pgf@layerbox@axis background=\box119
+\pgf@layerboxsaved@axis background=\box120
+\pgf@layerbox@axis grid=\box121
+\pgf@layerboxsaved@axis grid=\box122
+\pgf@layerbox@axis ticks=\box123
+\pgf@layerboxsaved@axis ticks=\box124
+\pgf@layerbox@axis lines=\box125
+\pgf@layerboxsaved@axis lines=\box126
+\pgf@layerbox@axis tick labels=\box127
+\pgf@layerboxsaved@axis tick labels=\box128
+\pgf@layerbox@pre main=\box129
+\pgf@layerboxsaved@pre main=\box130
+\pgf@layerbox@axis descriptions=\box131
+\pgf@layerboxsaved@axis descriptions=\box132
+\pgf@layerbox@axis foreground=\box133
+\pgf@layerboxsaved@axis foreground=\box134
+Package pgfplots info on input line 250: Setting layers 'axis background,axis g
 rid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis
  foreground'...
 
-Overfull \hbox (34.28525pt too wide) in paragraph at lines 204--204
+Overfull \hbox (34.28525pt too wide) in paragraph at lines 250--250
 [][] 
  []
 
-[14
+[19
 
-] [15
+] [20
 
-] (./polar_graph.tex)
-Overfull \hbox (1.39758pt too wide) in paragraph at lines 34--232
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 265.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\theta' on input line 265.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 265.
+
+(./main.toc) (./polar_graph.tex)
+Overfull \hbox (1.39758pt too wide) in paragraph at lines 34--280
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--232
+Underfull \hbox (badness 10000) in paragraph at lines 34--280
 
  []
 
 
-Underfull \hbox (badness 5260) in paragraph at lines 232--232
+Underfull \hbox (badness 5260) in paragraph at lines 280--280
 []\OT1/cmss/m/n/10.95 We see the im-por-tant
  []
 
-[16
+[21
 
-] [17
+] [22] [23
 
 ]
 NOTE: coordinate (1Y1.00164845e0],3Y0.0e0]) has been dropped because it is unbo
@@ -2336,37 +2377,39 @@ NOTE: coordinate (1Y2.4882524e0],3Y0.0e0]) has been dropped because it is unbou
 nded (in y). (see also unbounded coords=jump). 
 NOTE: coordinate (1Y2.4999579e0],3Y0.0e0]) has been dropped because it is unbou
 nded (in y). (see also unbounded coords=jump). 
-Package pgfplots info on input line 307: fill between: activating layered graph
+Package pgfplots info on input line 355: fill between: activating layered graph
 ics
-Package pgfplots info on input line 307: Setting layers 'axis background,axis g
+Package pgfplots info on input line 355: Setting layers 'axis background,axis g
 rid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis
  foreground'...
 
-Overfull \hbox (4.78944pt too wide) in paragraph at lines 307--307
+Overfull \hbox (4.78944pt too wide) in paragraph at lines 355--355
 []$[]$$[]$  
  []
 
-[18
+[24
 
 ]
-Package pgfplots info on input line 371: fill between: activating layered graph
+Package pgfplots info on input line 419: fill between: activating layered graph
 ics
-Package pgfplots info on input line 371: Setting layers 'axis background,axis g
+Package pgfplots info on input line 419: Setting layers 'axis background,axis g
 rid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis
  foreground'...
- [19
+ [25
 
-] [20
+] [26
 
 ]
-Package pgfplots info on input line 446: fill between: activating layered graph
+Package pgfplots info on input line 494: fill between: activating layered graph
 ics
-Package pgfplots info on input line 446: Setting layers 'axis background,axis g
+Package pgfplots info on input line 494: Setting layers 'axis background,axis g
 rid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis
  foreground'...
- [21
+ [27
 
-] [22
+] [28
+
+] [29
 
 ])
 \tf@nav=\write6
@@ -2383,14 +2426,14 @@ rid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8E0436C291B4204625CADC7E8C50DBF3;186.
+(rerunfilecheck)             Checksum: 9FC3330A5EF16F6BBEBF7743D8761D3C;1188.
  ) 
 Here is how much of TeX's memory you used:
- 43280 strings out of 478287
- 1042464 string characters out of 5849290
- 1669632 words of memory out of 5000000
- 60595 multiletter control sequences out of 15000+600000
- 485481 words of font info for 87 fonts, out of 8000000 for 9000
+ 43504 strings out of 478287
+ 1046263 string characters out of 5849290
+ 1675621 words of memory out of 5000000
+ 60784 multiletter control sequences out of 15000+600000
+ 486175 words of font info for 90 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,19n,122p,1081b,2371s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
@@ -2413,10 +2456,10 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1
 /public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (22 pages, 298385 bytes).
+Output written on main.pdf (29 pages, 322597 bytes).
 PDF statistics:
- 799 PDF objects out of 1000 (max. 8388607)
- 686 compressed objects within 7 object streams
- 47 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1171 PDF objects out of 1200 (max. 8388607)
+ 1042 compressed objects within 11 object streams
+ 67 named destinations out of 1000 (max. 500000)
+ 159 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,8 +1,9 @@
 \section{Derivatives}
+\subsection{Partial derivatives}
 \tableofcontents[currentsection,currentsubsection]
 
 \begin{frame}
-\frametitle{Partial derivatives}
+\frametitle{Derivatives}
 
 We already know how to compute the derivative of a function of one variable, e.g., for $f(x)=\sin(x^2)$ we get:
 \[\frac{d f}{dx}=2x\cos(x^2) \qquad \frac{d^2 f}{dx^2}=2\cos(x^2)-4x^2\sin(x^2)\]
@@ -48,8 +49,10 @@ We observe that in the end, the order of differentiation did not matter: $f_{xy}
 
 
 
+    \subsection{The gradient \& directional derivative}
+\tableofcontents[currentsection,currentsubsection]
 \begin{frame}
-\frametitle{The gradient}
+\frametitle{The gradient vector}
 
 The gradient is the vector of first-order partial derivatives of a function.
 
@@ -76,12 +79,11 @@ The gradient is important, because the directional derivative of a function at a
 \end{frame}
 
 
-
 \begin{frame}
 \frametitle{The directional derivative}
 
 When you have a function $f$ of more than one input variable, say $f(x,y)$, you might wonder what the rate of change \textit{in a particular direction} is. This is the \textbf{directional derivative}.
-\begin{theorybox}
+    \begin{theorybox}{Directional derivative}
     The directional derivative of $f(x,y)$ in the direction of a \textbf{UNIT} vector $\hat{u}=\begin{bmatrix}a\\b\end{bmatrix}$ is
     \[D_{\hat{u}}f(x,y)=f_x(x,y)a+f_y(x,y)b=\vabla f(x,y)\cdot\hat{u}\]
 
@@ -110,8 +112,52 @@ When you have a function $f$ of more than one input variable, say $f(x,y)$, you 
 \end{frame}
 
 
+\subsection{Tangent planes}
+\tableofcontents[currentsection,currentsubsection]
 
-\section{Integrals}
+\begin{frame}{Tangent planes}
+    \begin{theorybox}{Tangent planes}
+        \textbf{Case 1:} When you have a function $f(x,y)$ and consider the surface given by all points $(x,y,f(x,y))$, then the tangent plane to the surface at $(a,b,f(a,b))$ is given by \[\boxed{z=f(a,b)+f_x(a,b)(x-a)+f_y(a,b)(y-b)}\]
+
+        \textbf{Case 2:} When you have a function $f(x,y,z)$ and consider the surface given by all points for which $f(x,y,z)=K$ (for some $K$), then the tangent plane to the surface at $(a,b,c)$ is given by
+        \[\boxed{f_x(a,b,c)(x-a)+f_y(a,b,c)(y-b)+f_z(a,b,c)(z-c)=0}\]
+    \end{theorybox}
+\end{frame}
+
+\begin{frame}{Tangent planes: example}
+    \begin{itemize}
+        \item
+            \textbf{Question:} Given the function $z=f(x,y)=3xy+e^{xy^2+3}$, find the tangent plane to this surface at the point $(-3,1)$.
+        \item \textbf{Step 1:} We decide to use "case 1" from the previous slide. Calculate the partial derivatives:
+            \[f_x(x,y)=3y+y^2e^{xy^2+3}  \qquad  f_y(x,y)=3x+2xye^{xy^2+3}\]
+            \[f_x(-3,1)=4 \qquad f_y(-3,1)=-15\]
+        \item \textbf{Step 2:}
+            The tangent plane is thus
+            \[\boxed{z=-8+4(x+3)-15(y-1)}\]
+        \item \gray{Step 3: rewrite nicely:}
+            \[{\gray{4x-15y-z=-19}}\]
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Tangent planes: another example}
+    \begin{itemize}
+        \item
+            \textbf{Question:} find the tangent plane to the surface given by $x^2y^3+3x^3+x^2y+xyz^2+yz^2=xy$ at the point $(1,-1,1)$.
+        \item \textbf{Step 1:}  We recognize that we can define $f(x,y,z)=x^2y^3+3x^3+x^2y+xyz^2+yz^2-xy$, and then the surface is just $f(x,y,z)=0$. So we decide to use "case 2" from the schema.
+        \item \textbf{Step 2:} calculate the partial derivatives:
+            \begin{align*}
+                f_x(x,y,z)&=2xy^3+9x^2+2xy+yz^2-y & f_x(1,-1,1)=5\\
+                f_y(x,y,z)&=3x^2y^2+x^2+xz^2+z^2-x & f_y(1,-1,1)=5\\
+                f_z(x,y,z)&=2xyz+2yz & f_z(1,-1,1)=-4
+            \end{align*}
+        \item \textbf{Step 3:} The tangent plane is thus (see "case 2"):
+            \[\boxed{5(x-1)+5(y+1)-4(z-1)=0}\]
+
+    \end{itemize}
+\end{frame}
+
+\section{Double integrals}
+\subsection{In Cartesian coordinates ($x,y$)}
 \tableofcontents[currentsection,currentsubsection]
 \begin{frame}{Double integrals (intuition)}
     Sometimes we need to take an integral over a integral.
@@ -156,7 +202,7 @@ When you have a function $f$ of more than one input variable, say $f(x,y)$, you 
             \[\int_2^4\int_3^5\frac{x^3}{y}dxdy\]
             We start with solving the inner integral, where $x$ changes and $y$ is constant:
             \[\int_3^5\frac{x^3}{y}dx=\frac{1}{y}\int_3^5x^3dx=\frac{1}{4y}\left[x^4\right]_3^5=\frac{136}{y}\]
-            Now calculating the full double integral is easy: the volume is
+            Now we calculate the full double integral: the volume is
             \[\int_2^4\int_3^5\frac{x^3}{y}dxdy=\int_2^4\frac{136}{y}dy=136\left[\ln y\right]_2^4=\boxed{136\ln2}\]
     \end{itemize}
 \end{frame}
@@ -216,6 +262,8 @@ To be computed in the next slide.
          So the volume is $\frac{3125}{567}$. \textbf{Note:} in this case, the order of integration matters. We have to first integrate w.r.t. $y$ and then $x$. (Try the other way, it's very hard.)
 \end{frame}
 
+\subsection{In polar coordinates ($r,\theta$)}
+\tableofcontents[currentsection,currentsubsection]
 \begin{frame}{Polar coordinates (1/2)}
     Sometimes we need to do integrals using \textbf{polar coordinates}, which look like this:
 
@@ -337,7 +385,7 @@ To be computed in the next slide.
 %\end{frame}
 
 
-\begin{frame}{Nasty little question}
+\begin{frame}{Nasty little question (1/4)}
 \footnotesize
     \begin{itemize}
         \item \textbf{Question:} calculate the volume of the solid body bounded by the function $z=f(x,y)=y\sqrt{x^2+y^2}$ and the $xy$-plane above the shaded region in the $xy$-plane given in the plot (note: only consider $y\geq0$):
@@ -371,7 +419,7 @@ To be computed in the next slide.
 \end{frame}
 
 
-\begin{frame}{Nasty little question}
+\begin{frame}{Nasty little question (2/4)}
     \begin{itemize}
         \item Let's first rewrite the equation of the red boundary into polar coordinates (use $x^2+y^2=r^2$ and $x=r\cos\theta$):
             \[\sqrt{x^2+y^2}=3+\frac{2x}{\sqrt{x^2+y^2}} \quad\red{\rightsquigarrow}\quad r=3+2\cos\theta\]
@@ -383,7 +431,7 @@ To be computed in the next slide.
 
 
 
-\begin{frame}{Nasty little question}
+\begin{frame}{Nasty little question (3/4)}
     \small
 \begin{minipage}{0.45\textwidth}
 \begin{tikzpicture}
@@ -445,15 +493,26 @@ To be computed in the next slide.
 
 \end{frame}
 
-\begin{frame}{Nasty little question}
+\begin{frame}{Nasty little question (4/4)}
     \footnotesize
     \begin{align*}
-        V&=\int_0^{2\pi/3}\int_1^{3+2\cos\theta}(r^2\sin\theta)rdrd\theta+\int_{2\pi/3}^{\pi}\int_{1}^2(r^2\sin\theta) rdrd\theta\\
-         &\qquad\yellow{\text{\scriptsize ($*$ If you don't understand this step, ask someone in the group chat $*$)}}\\
-         &=\int_0^{2\pi/3}\sin\theta\int_1^{3+2\cos\theta}r^3drd\theta+\int_{2\pi/3}^{\pi}\sin\theta d\theta\int_{1}^2r^3 dr\\
-         &=\int_0^{2\pi/3}\sin\theta\left[\frac{r^4}{4}\right]_1^{3+2\cos\theta}d\theta+\left(\left[-\cos\theta\right]_{2\pi/3}^{\pi} \left[\frac{r^4}{4}\right]_1^2\right)\\
-         &=\frac{1}{4}\int_0^{2\pi/3}\sin\theta\left((3+2\cos\theta)^4-1\right)d\theta+\left(\left[-\cos\theta\right]_{2\pi/3}^{\pi} \left[\frac{r^4}{4}\right]_1^2\right)\\
+        V&=\int_0^{2\pi/3}\int_1^{3+2\cos\theta}(r^2\sin\theta)rdrd\theta+\int_{2\pi/3}^{\pi}\int_{1}^2(r^2\sin\theta) rdrd\theta\\[-1mm]
+         &\qquad\yellow{\text{\scriptsize ($*$ Shuffle things around, see next slide for detailed explanation $*$)}}\\[-1mm]
+         &=\int_0^{2\pi/3}\sin\theta\int_1^{3+2\cos\theta}r^3drd\theta+\int_{2\pi/3}^{\pi}\sin\theta d\theta\int_{1}^2r^3 dr\\[-1mm]
+         &=\int_0^{2\pi/3}\sin\theta\left[\frac{r^4}{4}\right]_1^{3+2\cos\theta}d\theta+\left(\left[-\cos\theta\right]_{2\pi/3}^{\pi} \left[\frac{r^4}{4}\right]_1^2\right)\\[-1mm]
+         &=\frac{1}{4}\int_0^{2\pi/3}\sin\theta\left((3+2\cos\theta)^4-1\right)d\theta+\left(\left[-\cos\theta\right]_{2\pi/3}^{\pi} \left[\frac{r^4}{4}\right]_1^2\right)\\[-1mm]
+         &\qquad\yellow{\text{\scriptsize ($*$ Antiderivative of $(\sin\theta)(3+2\cos\theta)^4$ can be found by subbing $u=3+2\cos\theta$ $*$)}}\\[-1mm]
          &=\frac{1}{4}\left[-\frac{1}{10}(3+2\cos\theta)^5+\cos\theta\right]_0^{2\pi/3}+\frac{15}{8}=\frac{1}{4}\left(-\frac{37}{10}+\frac{3115}{10}\right)+\frac{15}{8}=\boxed{\frac{3153}{40}}\\
     \end{align*}
     So the volume is $\frac{3153}{40}$.
 \end{frame}
+
+\begin{frame}{Brief note on integral tricks}\label{integraltrick}
+    In the last slide, we got the integral \[\int_{2\pi/3}^{\pi}\int_{1}^2(r^2\sin\theta) rdrd\theta\] This looks like a hard integral, but in fact it is very easy when realized that it can be split into a separate $r$-integral and $\theta$-integral.
+
+    This is because we can take constant factors out of an integral. The nice thing is that e.g. $\sin\theta$ is \textbf{also} a constant factor when integrating over $r$. Similarly, $\int_1^2 r^3 dr$ itself is a perfectly valid constant factor. We then see:
+    {\footnotesize
+    \[\int_{2\pi/3}^{\pi}\int_{1}^2(r^2\overbrace{\sin\theta}^{\red{\textbf{const}}}) rdrd\theta \blue{~\pmb{=}} \int_{2\pi/3}^{\pi}\sin\theta\overbrace{\int_{1}^2r^3 dr}^{\red{\textbf{const}}}d\theta \blue{~\pmb{=}} \left(\int_{2\pi/3}^{\pi}\sin\theta d\theta\right)\left(\int_1^2r^3dr\right)\]}
+    Which is the product of two straightforward integrals.
+\end{frame}
+

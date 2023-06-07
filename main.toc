@@ -1,2 +1,7 @@
 \beamer@sectionintoc {1}{Derivatives}{2}{0}{1}
-\beamer@sectionintoc {2}{Integrals}{9}{0}{2}
+\beamer@subsectionintoc {1}{1}{Partial derivatives}{2}{0}{1}
+\beamer@subsectionintoc {1}{2}{The gradient \& directional derivative}{6}{0}{1}
+\beamer@subsectionintoc {1}{3}{Tangent planes}{10}{0}{1}
+\beamer@sectionintoc {2}{Double integrals}{14}{0}{2}
+\beamer@subsectionintoc {2}{1}{In Cartesian coordinates ($x,y$)}{14}{0}{2}
+\beamer@subsectionintoc {2}{2}{In polar coordinates ($r,\theta $)}{21}{0}{2}

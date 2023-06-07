@@ -1,4 +1,4 @@
-\documentclass[handout]{beamer}
+\documentclass[handout,compress]{beamer}
 \usepackage[utf8]{inputenc}
 
 \title{Multivariable Calculus (CS+AI)}
@@ -24,16 +24,16 @@
 \setbeamercolor{palette primary}{bg=violet,fg=yellow!80!white}
 \setbeamercolor{palette secondary}{bg=cyan!90!violet,fg=lime!10!white}
 \setbeamercolor{palette tertiary}{bg=yellow!10!orange,fg=green!10!white}
- \setbeamercolor{background canvas}{bg=yellow!80!cyan}
+\setbeamercolor{background canvas}{bg=yellow!80!cyan}
 \useoutertheme[subsection=false]{miniframes}
 \setbeamertemplate{section in toc shaded}[default][44]
 \setbeamertemplate{subsection in toc shaded}[default][44]
 \fi
 
 
-\newenvironment{theorybox}
+\newenvironment{theorybox}[1]
 {
-\begin{tcolorbox}[colback=yellow!50,colframe=green!25!red,title=Directional derivative]
+    \begin{tcolorbox}[colback=yellow!50,colframe=green!25!red,title={#1}]
 }
 {
 \end{tcolorbox}
@@ -41,6 +41,7 @@
 \newcommand{\vabla}{\vec{\nabla}}
 \newcommand{\lenvec}[1]{|\vec{#1}|}
 \newcommand{\red}[1]{\textcolor{red}{#1}}
+\newcommand{\gray}[1]{\textcolor{gray!70!white}{#1}}
 \newcommand{\blue}[1]{\textcolor{blue}{#1}}
 \newcommand{\violet}[1]{\textcolor{violet}{#1}}
 \newcommand{\yellow}[1]{\textcolor{orange}{#1}}
@@ -59,6 +60,8 @@
 \usepackage{natbib}
 \usepackage{stmaryrd}
 \usepackage{relsize}
+\usepackage{ulem}
+\usepackage{cancel}
 \usepackage{tensor}
 \usepackage{pgfplots}
 \usepgfplotslibrary{polar}
@@ -77,7 +80,6 @@
 
 \maketitle
 
-%\input{linalg.tex}
 \input{calc.tex}
 
 \end{document}
