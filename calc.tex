@@ -426,13 +426,7 @@ To be computed in the next slide.
         \item The other boundaries are just half-circles with radii $r=1$ and $r=2$.
     \end{itemize}
 
-\end{frame}
-
-
-
-
-\begin{frame}{Nasty little question (3/4)}
-    \small
+    \vspace{3mm}
 \begin{minipage}{0.45\textwidth}
 \begin{tikzpicture}
 \begin{axis}[
@@ -457,8 +451,8 @@ To be computed in the next slide.
     \addplot[orange, opacity=0.9] fill between[of=g and j,soft clip={domain=-2:-1}];
     \addplot[orange, opacity=0.9] fill between[of=h and i,soft clip={domain=-1:-0.5}];
 
-\node at (axis cs:2.6,1.6) {$D_2$};
-\node at (axis cs:-1.4,0.7) {$D_1$};
+\node at (axis cs:2.6,1.6) {$D_1$};
+\node at (axis cs:-1.4,0.7) {$D_2$};
     \coordinate (aaa) at (axis cs:3,0);
     \coordinate (bbb) at (axis cs:0,0);
     \coordinate (ccc) at (axis cs:-1,1.732);
@@ -482,13 +476,23 @@ To be computed in the next slide.
 %\end{axis}
 %\end{tikzpicture}
             \end{minipage}\begin{minipage}{0.45\textwidth}
-                We need to split the integral; see the picture.\footnote{There are also other ways to split}\footnote{If you like math: $D=D_1\cup D_2$} The angle $\theta$ as in the picture occurs when  \[2=3+2\cos\theta\quad\Rightarrow\quad\cos\theta=-\frac{1}{2}\]
+                We need to split the region; see the picture.\footnote{There are also other ways to split} The angle $\theta$ as in the picture occurs when \[2=3+2\cos\theta\quad\Rightarrow\quad\cos\theta=-\frac{1}{2}\]
                 So we split the integral at $\theta=\frac{2}{3}\pi$.
                 
             \end{minipage}
+\end{frame}
 
-            \vspace{5mm}
-            We obtain (since $z=y\sqrt{x^2+y^2}=(r\sin\theta)r=r^2\sin\theta$) \[V=\int_0^{2\pi/3}\int_1^{3+2\cos\theta}(r^2\sin\theta)rdrd\theta+\int_{2\pi/3}^{\pi}\int_{1}^2(r^2\sin\theta) rdrd\theta\]
+
+
+
+\begin{frame}{Nasty little question (3/4)}
+    \footnotesize
+                In the previous slide, we calculated that the ``split angle'' is $\theta=\frac{2\pi}{3}$.  
+
+            We can write the region of integration as $D=D_1\cup D_2$ (with $D_{1,2}$ as in the picture on previous slide, note that these regions do not overlap except at the boundary):
+            \begin{align*}D &=\{(r,\theta) \mid 0\leq\theta\leq\frac{2\pi}{3} \land 1\leq r\leq 3+2\cos\theta \}\\&\qquad\cup\{(r,\theta) \mid \frac{2\pi}{3}\leq\theta\leq\pi \land 1\leq r\leq2\}\end{align*}
+
+            We obtain (since $z=y\sqrt{x^2+y^2}=(r\sin\theta)r=r^2\sin\theta$) \begin{align*}V&=\iint_{D}f(x,y)dA=\iint_{D_1}f(x,y)dA+\iint_{D_2}f(x,y)dA\\&=\int_0^{2\pi/3}\int_1^{3+2\cos\theta}(r^2\sin\theta)rdrd\theta+\int_{2\pi/3}^{\pi}\int_{1}^2(r^2\sin\theta) rdrd\theta\end{align*}
             To be computed in the next slide.
 
 \end{frame}
