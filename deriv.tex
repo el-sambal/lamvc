@@ -1,0 +1,191 @@
+\section{Derivatives}
+\subsection{Partial derivatives}
+\tableofcontents[currentsection,currentsubsection]
+
+\begin{frame}
+\frametitle{Derivatives}
+
+We already know how to compute the derivative of a function of one variable, e.g., for $f(x)=\sin(x^2)$ we get:
+\[\frac{d f}{dx}=2x\cos(x^2) \qquad \frac{d^2 f}{dx^2}=2\cos(x^2)-4x^2\sin(x^2)\]
+
+If we have a function of more than one variable, say $g(x,y,z)=x^5y+3e^z$, then we can compute three \textit{partial derivatives}, one with respect to each input variable.
+
+The partial derivative of $g$ with respect to $x$ is denoted $\frac{\partial g}{\partial x}$ or $g_x$.
+
+The partial derivative of $g$ with respect to $y$ is denoted $\frac{\partial g}{\partial y}$ or $g_y$.
+
+The partial derivative of $g$ with respect to $z$ is denoted $\frac{\partial g}{\partial z}$ or $g_z$.
+
+Notice that we use a ``curly d'' ($\partial$) for partial derivatives.
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Computing partial derivatives}
+
+To compute partial derivatives, we use this rule: \textbf{in order to compute the partial derivative with respect to one variable (say $x$), we use the regular derivative rules that we already know, while regarding the other variables ($y$ and $z$) as \textit{constants}.}
+
+\vspace{3mm}Take $g(x,y,z)=x^5y+3e^z$:
+\[g_x = 5x^4y\qquad g_y=x^5\qquad g_z=3e^z\]
+For example, when we compute $g_x$, we see that the $3e^z$ term vanishes (since we regard $z$ as a constant, $3e^z$ is also constant, and the derivative of a constant is $0$). And the derivative of the term $x^5y$ is just $5x^4y$, since $y$ is regarded as constant.
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Higher order partial derivatives}
+
+Of course, we can also take the derivative of the derivative, and compute higher order partial derivatives in that way. Take for example $f(x,y,z)=xe^y\sin(z^2)$,
+\[f_x = e^y\sin(z^2)\qquad f_y=xe^y\sin(z^2)\qquad f_z=2xe^y z\cos(z^2)\]
+
+There are nine second order partial derivatives ($f_{xy}=(f_x)_y$):
+{\footnotesize\begin{align*}
+    f_{xx} = 0 \qquad&& \textcolor{blue}{f_{yx} = e^y\sin(z^2)} \qquad&& \textcolor{red}{f_{zx} = 2e^y z\cos(z^2)}\\
+    \textcolor{blue}{f_{xy} = e^y\sin(z^2)} \qquad&& f_{yy} = xe^y\sin(z^2)\qquad&& \textcolor{teal}{f_{zy} =  2xe^y z\cos(z^2)} \\
+    \textcolor{red}{f_{xz} = 2e^y z\cos(z^2)}\qquad&& \textcolor{teal}{f_{yz} = 2xe^y z\cos(z^2)} \qquad&& f_{zz} = 2xe^y\left[\cos(z^2)-2z^2\sin(z^2)\right]
+\end{align*}}
+We observe that in the end, the order of differentiation did not matter: $f_{xy}=f_{yx}$, and $f_{xz}=f_{zx}$, and $f_{yz}=f_{zy}$. In fact, this is always the case for any function\footnote{As long as the function has continuous second order partial derivatives}. \textit{(Clairaut's theorem)}.
+
+\end{frame}
+
+
+
+    \subsection{The gradient \& directional derivative}
+\tableofcontents[currentsection,currentsubsection]
+\begin{frame}
+\frametitle{The gradient vector}
+
+The gradient is the vector of first-order partial derivatives of a function.
+
+For functions of two or three variables, the gradient is
+\[\vec{\nabla} f(x,y) =
+\begin{bmatrix}
+\frac{\partial}{\partial x} f(x,y)\\
+\frac{\partial}{\partial y} f(x,y)\\
+\end{bmatrix}
+\qquad
+\vec{\nabla} g(x,y,z) =
+\begin{bmatrix}
+\frac{\partial}{\partial x} g(x,y,z)\\
+\frac{\partial}{\partial y} g(x,y,z)\\
+\frac{\partial}{\partial z} g(x,y,z)\\
+\end{bmatrix}
+\]
+
+
+The gradient of $f$ can also be written as $\text{grad } f$ or $\nabla f$, but in these slides we use $\vec{\nabla} f$ in order to accentuate the vectorial nature of the gradient.
+
+The gradient is important, because the directional derivative of a function at a point is maximal when you go in the direction of the gradient. \textbf{So, the gradient gives the direction of steepest increase of a function.}
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{The directional derivative}
+
+When you have a function $f$ of more than one input variable, say $f(x,y)$, you might wonder what the rate of change \textit{in a particular direction} is. This is the \textbf{directional derivative}.
+    \begin{theorybox}{Directional derivative}
+    The directional derivative of $f(x,y)$ in the direction of a \textbf{UNIT} vector $\hat{u}=\begin{bmatrix}a\\b\end{bmatrix}$ is
+    \[D_{\hat{u}}f(x,y)=f_x(x,y)a+f_y(x,y)b=\vabla f(x,y)\cdot\hat{u}\]
+
+    Similarly, in three dimensions, the directional derivative of $f(x,y,z)$ in the direction of a \textbf{\textcolor{red}{UNIT}} vector $\hat{u}=[a~~b~~c]^T$ is given by
+    \[D_{\hat{u}}f(x,y,z)=f_x(x,y,z)a+f_y(x,y,z)b+f_z(x,y,z)c=\vabla f(x,y,z)\cdot\hat{u}\]
+    
+\end{theorybox}
+\end{frame}
+
+\begin{frame}{Directional derivative: example}
+\footnotesize
+    \begin{itemize}
+        \item \textbf{Question:} calculate the directional derivative of $f(x,y)=4x^2+xe^{x+2y}-ye^{2x+y}+42$ in the direction of the vector $\vec{v}=\begin{bmatrix}-4\\3\end{bmatrix}$ at the point $(5,6)$.
+        \item \textbf{Step 1:} observe that $\vec{v}$ is \textbf{not a unit vector}. We have to convert it into a unit vector by dividing it by its length $\lenvec{v}=\sqrt{(-4)^2+3^2}=5$.
+        \[\hat{v}=\frac{\vec{v}}{\lenvec{v}}=\begin{bmatrix}\textcolor{red}{-4/5}\\\textcolor{blue}{3/5}\end{bmatrix}\]
+        \item \textbf{Step 2:} calculate the partial derivatives:
+        \begin{align*}
+            f_x(x,y)&=8x+(1+x)e^{x+2y}-2ye^{2x+y}\qquad&f_x(5,6)&=40+6e^{17}-12e^{16}\\
+            f_y(x,y)&=2xe^{x+2y}-(1+y)e^{2x+y} &f_y(5,6)&=10e^{17}-7e^{16}
+        \end{align*}
+        \item \textbf{Step 3:} the directional derivative is: (do not forget to use the \textit{unit} vector!)
+        \begin{align*}D_{\hat{v}}f(5,6)&=\textcolor{red}{-\frac{4}{5}}f_x(5,6)+\textcolor{blue}{\frac{3}{5}}f_y(5,6)\\
+        &=\textcolor{red}{-\frac{4}{5}}(40+6e^{17}-12e^{16})+\textcolor{blue}{\frac{3}{5}}(10e^{17}-7e^{16})=\boxed{-32+\frac{27}{5}e^{16}+\frac{6}{5}e^{17}}
+        \end{align*}
+    \end{itemize}
+\end{frame}
+
+
+\subsection{Tangent planes}
+\tableofcontents[currentsection,currentsubsection]
+
+\begin{frame}{Tangent planes}
+    \begin{theorybox}{Tangent planes}
+        \textbf{Case 1:} When you have a function $f(x,y)$ and consider the surface given by all points $(x,y,f(x,y))$, then the tangent plane to the surface at $(a,b,f(a,b))$ is given by \[\boxed{z=f(a,b)+f_x(a,b)(x-a)+f_y(a,b)(y-b)}\]
+
+        \textbf{Case 2:} When you have a function $f(x,y,z)$ and consider the surface given by all points for which $f(x,y,z)=K$ (for some $K$), then the tangent plane to the surface at $(a,b,c)$ is given by
+        \[\boxed{f_x(a,b,c)(x-a)+f_y(a,b,c)(y-b)+f_z(a,b,c)(z-c)=0}\]
+    \end{theorybox}
+\end{frame}
+
+\begin{frame}{Tangent planes: example}
+    \begin{itemize}
+        \item
+            \textbf{Question:} Given the function $z=f(x,y)=3xy+e^{xy^2+3}$, find the tangent plane to this surface at the point $(-3,1)$.
+        \item \textbf{Step 1:} We decide to use "case 1" from the previous slide. Calculate the partial derivatives:
+            \[f_x(x,y)=3y+y^2e^{xy^2+3}  \qquad  f_y(x,y)=3x+2xye^{xy^2+3}\]
+            \[f_x(-3,1)=4 \qquad f_y(-3,1)=-15\]
+        \item \textbf{Step 2:}
+            The tangent plane is thus
+            \[\boxed{z=-8+4(x+3)-15(y-1)}\]
+        \item \gray{Step 3: rewrite nicely:}
+            \[{\gray{4x-15y-z=-19}}\]
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Tangent planes: another example}
+    \begin{itemize}
+        \item
+            \textbf{Question:} find the tangent plane to the surface given by $x^2y^3+3x^3+x^2y+xyz^2+yz^2=xy$ at the point $(1,-1,1)$.
+        \item \textbf{Step 1:}  We recognize that we can define $f(x,y,z)=x^2y^3+3x^3+x^2y+xyz^2+yz^2-xy$, and then the surface is just $f(x,y,z)=0$. So we decide to use "case 2" from the schema.
+        \item \textbf{Step 2:} calculate the partial derivatives:
+            \begin{align*}
+                f_x(x,y,z)&=2xy^3+9x^2+2xy+yz^2-y & f_x(1,-1,1)=5\\
+                f_y(x,y,z)&=3x^2y^2+x^2+xz^2+z^2-x & f_y(1,-1,1)=5\\
+                f_z(x,y,z)&=2xyz+2yz & f_z(1,-1,1)=-4
+            \end{align*}
+        \item \textbf{Step 3:} The tangent plane is thus (see "case 2"):
+            \[\boxed{5(x-1)+5(y+1)-4(z-1)=0}\]
+
+    \end{itemize}
+\end{frame}
+
+\subsection{Critical points}
+\tableofcontents[currentsection,currentsubsection]
+
+\begin{frame}{Critical points}
+    A function $f(x,y)$ can have \textit{local maxima, local minima} and/or \textit{saddle points}. These are also called \textbf{critical points}.
+
+    \begin{theorybox}{Critical points}
+    A function $f(x,y)$ has a \textbf{critical point} (or \textbf{stationary point}) at $(a,b)$ when $f_x(a,b)=0$ and $f_y(a,b)=0$.
+    \end{theorybox}
+
+    \textbf{Example}: find the critical points of $f(x,y)=2x^2+2xy+3y^2-4y$.
+
+    \textbf{Solution}: we calculate both partial derivatives and set them equal to zero: $f_x(x,y)=4x+2y$ and $f_y(x,y)=2x+6y-4$; so we get the system of equations $\begin{cases}4x+2y=0\\2x+6y=4\end{cases}$, which has the (only) solution $x=-\frac{2}{5},~y=\frac{4}{5}$.
+
+    So the (only) critical point of $f(x,y)$ is $\boxed{\left(-\frac{2}{5},\frac{4}{5}\right)}$.
+\end{frame}
+
+\begin{frame}{The second derivative test}
+
+    \begin{theorybox}{Second derivative test}
+        Suppose a function $f(x,y)$ has a critical point at $(a,b)$. Then we can calculate $D=D(a,b)=f_{xx}(a,b)f_{yy}(a,b)-\left[f_{xy}(a,b)\right]^2$
+        
+        Then:
+        \begin{itemize}
+
+\item If $D>0$ and $f_{xx}(a,b)>0$, then $(a,b)$ is a \textbf{local minimum}
+\item If $D>0$ and $f_{xx}(a,b)<0$, then $(a,b)$ is a \textbf{local maximum}
+\item If $D<0$, then $(a,b)$ is a \textbf{saddle point}
+\item If $D=0$, then \xout{you're fucked} the test is inconclusive
+        \end{itemize}
+    \end{theorybox}
+
+\end{frame}
