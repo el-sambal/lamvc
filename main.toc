@@ -5,5 +5,5 @@
 \beamer@subsectionintoc {1}{4}{Critical points}{14}{0}{1}
 \beamer@sectionintoc {2}{Double integrals}{17}{0}{2}
 \beamer@subsectionintoc {2}{1}{In Cartesian coordinates ($x,y$)}{17}{0}{2}
-\beamer@subsectionintoc {2}{2}{In polar coordinates ($r,\theta $)}{24}{0}{2}
-\beamer@sectionintoc {3}{Triple integrals}{33}{0}{3}
+\beamer@subsectionintoc {2}{2}{In polar coordinates ($r,\theta $)}{26}{0}{2}
+\beamer@sectionintoc {3}{Triple integrals}{35}{0}{3}
