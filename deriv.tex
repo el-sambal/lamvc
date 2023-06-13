@@ -1,4 +1,4 @@
-\section{Derivatives}
+\section{Derivatives and applications}
 \subsection{Partial derivatives}
 \tableofcontents[currentsection,currentsubsection]
 
@@ -8,15 +8,15 @@
 We already know how to compute the derivative of a function of one variable, e.g., for $f(x)=\sin(x^2)$ we get:
 \[\frac{d f}{dx}=2x\cos(x^2) \qquad \frac{d^2 f}{dx^2}=2\cos(x^2)-4x^2\sin(x^2)\]
 
-If we have a function of more than one variable, say $g(x,y,z)=x^5y+3e^z$, then we can compute three \textit{partial derivatives}, one with respect to each input variable.
+\pause If we have a function of more than one variable, say $g(x,y,z)=x^5y+3e^z$, then we can compute three \textit{partial derivatives}, one with respect to each input variable.
 
-The partial derivative of $g$ with respect to $x$ is denoted $\frac{\partial g}{\partial x}$ or $g_x$.
+\pause The partial derivative of $g$ with respect to $x$ is denoted $\frac{\partial g}{\partial x}$ or $g_x$.
 
 The partial derivative of $g$ with respect to $y$ is denoted $\frac{\partial g}{\partial y}$ or $g_y$.
 
 The partial derivative of $g$ with respect to $z$ is denoted $\frac{\partial g}{\partial z}$ or $g_z$.
 
-Notice that we use a ``curly d'' ($\partial$) for partial derivatives.
+\pause Notice that we use a ``curly d'' ($\partial$) for partial derivatives.
 
 \end{frame}
 
@@ -25,7 +25,7 @@ Notice that we use a ``curly d'' ($\partial$) for partial derivatives.
 
 To compute partial derivatives, we use this rule: \textbf{in order to compute the partial derivative with respect to one variable (say $x$), we use the regular derivative rules that we already know, while regarding the other variables ($y$ and $z$) as \textit{constants}.}
 
-\vspace{3mm}Take $g(x,y,z)=x^5y+3e^z$:
+\pause \vspace{3mm}Take $g(x,y,z)=x^5y+3e^z$:
 \[g_x = 5x^4y\qquad g_y=x^5\qquad g_z=3e^z\]
 For example, when we compute $g_x$, we see that the $3e^z$ term vanishes (since we regard $z$ as a constant, $3e^z$ is also constant, and the derivative of a constant is $0$). And the derivative of the term $x^5y$ is just $5x^4y$, since $y$ is regarded as constant.
 
@@ -37,13 +37,13 @@ For example, when we compute $g_x$, we see that the $3e^z$ term vanishes (since 
 Of course, we can also take the derivative of the derivative, and compute higher order partial derivatives in that way. Take for example $f(x,y,z)=xe^y\sin(z^2)$,
 \[f_x = e^y\sin(z^2)\qquad f_y=xe^y\sin(z^2)\qquad f_z=2xe^y z\cos(z^2)\]
 
-There are nine second order partial derivatives ($f_{xy}=(f_x)_y$):
+\pause There are nine second order partial derivatives ($f_{xy}=(f_x)_y$):
 {\footnotesize\begin{align*}
     f_{xx} = 0 \qquad&& \textcolor{blue}{f_{yx} = e^y\sin(z^2)} \qquad&& \textcolor{red}{f_{zx} = 2e^y z\cos(z^2)}\\
     \textcolor{blue}{f_{xy} = e^y\sin(z^2)} \qquad&& f_{yy} = xe^y\sin(z^2)\qquad&& \textcolor{teal}{f_{zy} =  2xe^y z\cos(z^2)} \\
     \textcolor{red}{f_{xz} = 2e^y z\cos(z^2)}\qquad&& \textcolor{teal}{f_{yz} = 2xe^y z\cos(z^2)} \qquad&& f_{zz} = 2xe^y\left[\cos(z^2)-2z^2\sin(z^2)\right]
 \end{align*}}
-We observe that in the end, the order of differentiation did not matter: $f_{xy}=f_{yx}$, and $f_{xz}=f_{zx}$, and $f_{yz}=f_{zy}$. In fact, this is always the case for any function\footnote{As long as the function has continuous second order partial derivatives}. \textit{(Clairaut's theorem)}.
+\pause We observe that in the end, the order of differentiation did not matter: $f_{xy}=f_{yx}$, and $f_{xz}=f_{zx}$, and $f_{yz}=f_{zy}$. In fact, this is always the case for any function\footnote{As long as the function has continuous second order partial derivatives}. \textit{(Clairaut's theorem)}.
 
 \end{frame}
 
@@ -72,9 +72,9 @@ For functions of two or three variables, the gradient is
 \]
 
 
-The gradient of $f$ can also be written as $\text{grad } f$ or $\nabla f$, but in these slides we use $\vec{\nabla} f$ in order to accentuate the vectorial nature of the gradient.
+\pause The gradient of $f$ can also be written as $\text{grad } f$ or $\nabla f$, but in these slides we use $\vec{\nabla} f$ in order to accentuate the vectorial nature of the gradient.
 
-The gradient is important, because the directional derivative of a function at a point is maximal when you go in the direction of the gradient. \textbf{So, the gradient gives the direction of steepest increase of a function.}
+\pause The gradient is important, because the directional derivative of a function at a point is maximal when you go in the direction of the gradient. \textbf{So, the gradient gives the direction of steepest increase of a function.}
 
 \end{frame}
 
@@ -97,14 +97,14 @@ When you have a function $f$ of more than one input variable, say $f(x,y)$, you 
 \footnotesize
     \begin{itemize}
         \item \textbf{Question:} calculate the directional derivative of $f(x,y)=4x^2+xe^{x+2y}-ye^{2x+y}+42$ in the direction of the vector $\vec{v}=\begin{bmatrix}-4\\3\end{bmatrix}$ at the point $(5,6)$.
-        \item \textbf{Step 1:} observe that $\vec{v}$ is \textbf{not a unit vector}. We have to convert it into a unit vector by dividing it by its length $\lenvec{v}=\sqrt{(-4)^2+3^2}=5$.
+        \item\pause \textbf{Step 1:} observe that $\vec{v}$ is \textbf{not a unit vector}. We have to convert it into a unit vector by dividing it by its length $\lenvec{v}=\sqrt{(-4)^2+3^2}=5$.
         \[\hat{v}=\frac{\vec{v}}{\lenvec{v}}=\begin{bmatrix}\textcolor{red}{-4/5}\\\textcolor{blue}{3/5}\end{bmatrix}\]
-        \item \textbf{Step 2:} calculate the partial derivatives:
+        \item\pause \textbf{Step 2:} calculate the partial derivatives:
         \begin{align*}
             f_x(x,y)&=8x+(1+x)e^{x+2y}-2ye^{2x+y}\qquad&f_x(5,6)&=40+6e^{17}-12e^{16}\\
             f_y(x,y)&=2xe^{x+2y}-(1+y)e^{2x+y} &f_y(5,6)&=10e^{17}-7e^{16}
         \end{align*}
-        \item \textbf{Step 3:} the directional derivative is: (do not forget to use the \textit{unit} vector!)
+        \item\pause \textbf{Step 3:} the directional derivative is: (do not forget to use the \textit{unit} vector!)
         \begin{align*}D_{\hat{v}}f(5,6)&=\textcolor{red}{-\frac{4}{5}}f_x(5,6)+\textcolor{blue}{\frac{3}{5}}f_y(5,6)\\
         &=\textcolor{red}{-\frac{4}{5}}(40+6e^{17}-12e^{16})+\textcolor{blue}{\frac{3}{5}}(10e^{17}-7e^{16})=\boxed{-32+\frac{27}{5}e^{16}+\frac{6}{5}e^{17}}
         \end{align*}
@@ -119,7 +119,7 @@ When you have a function $f$ of more than one input variable, say $f(x,y)$, you 
     \begin{theorybox}{Tangent planes}
         \textbf{Case 1:} When you have a function $f(x,y)$ and consider the surface given by all points $(x,y,f(x,y))$, then the tangent plane to the surface at $(a,b,f(a,b))$ is given by \[\boxed{z=f(a,b)+f_x(a,b)(x-a)+f_y(a,b)(y-b)}\]
 
-        \textbf{Case 2:} When you have a function $f(x,y,z)$ and consider the surface given by all points for which $f(x,y,z)=K$ (for some $K$), then the tangent plane to the surface at $(a,b,c)$ is given by
+        \pause\textbf{Case 2:} When you have a function $f(x,y,z)$ and consider the surface given by all points for which $f(x,y,z)=K$ (for some $K$), then the tangent plane to the surface at $(a,b,c)$ is given by
         \[\boxed{f_x(a,b,c)(x-a)+f_y(a,b,c)(y-b)+f_z(a,b,c)(z-c)=0}\]
     \end{theorybox}
 \end{frame}
@@ -128,13 +128,13 @@ When you have a function $f$ of more than one input variable, say $f(x,y)$, you 
     \begin{itemize}
         \item
             \textbf{Question:} Given the function $z=f(x,y)=3xy+e^{xy^2+3}$, find the tangent plane to this surface at the point $(-3,1)$.
-        \item \textbf{Step 1:} We decide to use "case 1" from the previous slide. Calculate the partial derivatives:
+        \item\pause \textbf{Step 1:} We decide to use "case 1" from the previous slide. Calculate the partial derivatives:
             \[f_x(x,y)=3y+y^2e^{xy^2+3}  \qquad  f_y(x,y)=3x+2xye^{xy^2+3}\]
             \[f_x(-3,1)=4 \qquad f_y(-3,1)=-15\]
-        \item \textbf{Step 2:}
+        \item\pause \textbf{Step 2:}
             The tangent plane is thus
             \[\boxed{z=-8+4(x+3)-15(y-1)}\]
-        \item \gray{Step 3: rewrite nicely:}
+        \item\pause \gray{Step 3: rewrite nicely:}
             \[{\gray{4x-15y-z=-19}}\]
     \end{itemize}
 \end{frame}
@@ -143,14 +143,14 @@ When you have a function $f$ of more than one input variable, say $f(x,y)$, you 
     \begin{itemize}
         \item
             \textbf{Question:} find the tangent plane to the surface given by $x^2y^3+3x^3+x^2y+xyz^2+yz^2=xy$ at the point $(1,-1,1)$.
-        \item \textbf{Step 1:}  We recognize that we can define $f(x,y,z)=x^2y^3+3x^3+x^2y+xyz^2+yz^2-xy$, and then the surface is just $f(x,y,z)=0$. So we decide to use "case 2" from the schema.
-        \item \textbf{Step 2:} calculate the partial derivatives:
+        \item\pause \textbf{Step 1:}  We recognize that we can define $f(x,y,z)=x^2y^3+3x^3+x^2y+xyz^2+yz^2-xy$, and then the surface is just $f(x,y,z)=0$. So we decide to use "case 2" from the schema.
+        \item\pause \textbf{Step 2:} calculate the partial derivatives:
             \begin{align*}
                 f_x(x,y,z)&=2xy^3+9x^2+2xy+yz^2-y & f_x(1,-1,1)=5\\
                 f_y(x,y,z)&=3x^2y^2+x^2+xz^2+z^2-x & f_y(1,-1,1)=5\\
                 f_z(x,y,z)&=2xyz+2yz & f_z(1,-1,1)=-4
             \end{align*}
-        \item \textbf{Step 3:} The tangent plane is thus (see "case 2"):
+        \item\pause \textbf{Step 3:} The tangent plane is thus (see "case 2"):
             \[\boxed{5(x-1)+5(y+1)-4(z-1)=0}\]
 
     \end{itemize}
@@ -166,11 +166,11 @@ When you have a function $f$ of more than one input variable, say $f(x,y)$, you 
     A function $f(x,y)$ has a \textbf{critical point} (or \textbf{stationary point}) at $(a,b)$ when $f_x(a,b)=0$ and $f_y(a,b)=0$.
     \end{theorybox}
 
-    \textbf{Example}: find the critical points of $f(x,y)=2x^2+2xy+3y^2-4y$.
+    \pause\textbf{Example}: find the critical points of $f(x,y)=2x^2+2xy+3y^2-4y$.
 
-    \textbf{Solution}: we calculate both partial derivatives and set them equal to zero: $f_x(x,y)=4x+2y$ and $f_y(x,y)=2x+6y-4$; so we get the system of equations $\begin{cases}4x+2y=0\\2x+6y=4\end{cases}$, which has the (only) solution $x=-\frac{2}{5},~y=\frac{4}{5}$.
+    \pause\textbf{Solution}: we calculate both partial derivatives and set them equal to zero: $f_x(x,y)=4x+2y$ and $f_y(x,y)=2x+6y-4$; so we get the system of equations $\begin{cases}4x+2y=0\\2x+6y=4\end{cases}$, which has the (only) solution $x=-\frac{2}{5},~y=\frac{4}{5}$.
 
-    So the (only) critical point of $f(x,y)$ is $\boxed{\left(-\frac{2}{5},\frac{4}{5}\right)}$.
+    \pause So the (only) critical point of $f(x,y)$ is $\boxed{\left(-\frac{2}{5},\frac{4}{5}\right)}$.
 \end{frame}
 
 \begin{frame}{The second derivative test}
@@ -189,5 +189,62 @@ When you have a function $f$ of more than one input variable, say $f(x,y)$, you 
     the test is inconclusive
         \end{itemize}
     \end{theorybox}
+
+\end{frame}
+
+\begin{frame}{The second derivative test (example)}
+    \begin{itemize}
+        \item\textbf{Question}: find and classify the critical points of $f(x,y)=2x^2+2xy+3y^2-4y$.
+        \item\pause\textbf{Step 1:} we already found that the (only) critical point of $f(x,y)$ is $\left(-\frac{2}{5},\frac{4}{5}\right)$ and $f_x(x,y)=4x+2y$ and $f_y(x,y)=2x+6y-4$.
+        \item\pause\textbf{Step 2:} the second partial derivatives are $f_{xx}(x,y)=4$, $f_{yy}(x,y)=6$, $f_{xy}(x,y)=2$. {\footnotesize(Also $f_{yx}(x,y)=2$, as it should be).}
+        \item\pause\textbf{Step 2:} calculate {\footnotesize\[D\left(-\frac{2}{5},\frac{4}{5}\right)=f_{xx}\left(-\frac{2}{5},\frac{4}{5}\right)f_{yy}\left(-\frac{2}{5},\frac{4}{5}\right)-\left[f_{xy}\left(-\frac{2}{5},\frac{4}{5}\right)\right]^2=4\cdot6-2^2=20\]}
+        \item\pause\textbf{Step 4:} we see that $D(-\frac{2}{5},\frac{4}{5})=20>0$ and $f_{xx}(-\frac{2}{5},\frac{4}{5})=4>0$, thus \textbf{the point $(-\frac{2}{5},\frac{4}{5})$ is a local minimum.}
+
+    \end{itemize}
+
+
+\end{frame}
+
+\begin{frame}{Find the closest point in plane (1/3) (Q4 exam 2021)}
+    \begin{itemize}
+        \item\textbf{Question}: find the coordinates of the point $(x,y,z)$ in the plane $z=ax+by+c$ which is closest to the point $(1,2,-1)$ outside that plane. (Express the result in terms of $a$, $b$ and $c$)
+        \item\pause\textbf{Step 1:}
+            The distance between a point $(x,y,z)$ and the point $(1,2,-1)$ is $\sqrt{(x-1)^2+(y-2)^2+(z+1)^2}$. Using the equation of the plane, this distance can be written as $\sqrt{(x-1)^2+(y-2)^2+(ax+by+c+1)^2}$, and we must find the $x$ and $y$ that minimize this distance. (From $x$ and $y$, we can then calculate $z$ using $z=ax+by+c$). But instead of minimizing the square root, we can make our task easier by finding the $x$ and $y$ that minimize $f(x,y)=(x-1)^2+(y-2)^2+(ax+by+c+1)^2$.
+
+    \end{itemize}
+
+\end{frame}
+
+\begin{frame}{Find the closest point in plane (2/3) (Q4 exam 2021)}
+
+    \begin{itemize}
+        \item\textbf{Step 2:}
+            We wanted to minimize $f(x,y)=(x-1)^2+(y-2)^2+(ax+by+c+1)^2$, so we set $f_x(x,y)=0$ and $f_y(x,y)=0$:
+            \begin{align*}
+                f_x(x,y)=2(x-1)+2a(ax+by+c+1)=0\\
+                f_y(x,y)=2(y-2)+2b(ax+by+c+1)=0
+            \end{align*}\pause
+            This results in the linear system of equations
+            \begin{align*}
+                (2+2a^2)x + (2ab)y = 2-2ac-2a\\
+                (2ab)x+(2+2b^2)y = 4-2bc-2b
+            \end{align*}
+            which we must solve for $x$ and $y$.
+    \end{itemize}
+
+
+\end{frame}
+
+\begin{frame}{Find the closest point in plane (3/3) (Q4 exam 2021)}
+        We can write the system of equations as a matrix:
+            \[\begin{bmatrix}
+                (2+2a^2)x & (2ab)y &\mid& 2-2ac-2a\\
+                (2ab)x & (2+2b^2)y &\mid& 4-2bc-2b
+            \end{bmatrix}\]
+
+            \pause By subtracting $\frac{1+b^2}{ab}$ times the first row from the second row, we can find (after a long series of calculations) that $x=\frac{b^2-2ab-ac-a+1}{a^2+b^2+1}$. \pause Similarly, we can find that $y=\frac{2a^2-ab-bc-b+2}{a^2+b^2+1}$. \pause We can then calculate $z=ax+by+c$:
+            {\footnotesize \[z=a\frac{b^2-2ab-ac-a+1}{a^2+b^2+1}+b\frac{2a^2-ab-bc-b+2}{a^2+b^2+1}+c=\frac{-a^2-b^2+a+2b+c}{a^2+b^2+1}\]}
+    \pause So the point we searched is
+    \[\boxed{\left(\frac{b^2-2ab-ac-a+1}{a^2+b^2+1},\frac{2a^2-ab-bc-b+2}{a^2+b^2+1},\frac{-a^2-b^2+a+2b+c}{a^2+b^2+1}\right)}\]
 
 \end{frame}

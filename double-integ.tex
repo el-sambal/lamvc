@@ -20,11 +20,11 @@
     \footnotesize
     \begin{itemize}
         \item \textbf{Question:} calculate the volume of the 3D body between $z=f(x,y)=(2x+3)e^y$ and the $xy$-plane, when the bounds of $x$ and $y$ are the rectangle $-1\leq x\leq1$ and $0\leq y\leq2$.
-        \item The region of integration is $D=\{(x,y)\mid-1\leq x\leq1,~ 0\leq y\leq2\}=[-1,1]\times[0,2]$
-        \item We need to compute the double integral\footnote{The reverse order would also work:
+        \item\pause The region of integration is $D=\{(x,y)\mid-1\leq x\leq1,~ 0\leq y\leq2\}=[-1,1]\times[0,2]$
+        \item\pause We need to compute the double integral\footnote{The reverse order would also work:
             $V_{\text{tot}}=\int_{-1}^{1}\red{\int_{0}^{2}(2x+3)e^y dy}dx$}
             \[V_{\text{tot}}=\int_{0}^{2}\red{\int_{-1}^{1}(2x+3)e^y dx}dy\]
-        \item \textbf{Plan of attack:} work from the inside-out. So, we start solving the inner integral: $\red{\int_{-1}^{1}(2x+3)e^y dx}$. \textbf{Important:} this is an integral in the ``$x$-world", because of the $dx$. It means that $x$ changes, whereas we can treat $y$ as a constant when computing the integral. So:
+        \item\pause \textbf{Plan of attack:} work from the inside-out. So, we start solving the inner integral: $\red{\int_{-1}^{1}(2x+3)e^y dx}$. \textbf{Important:} this is an integral in the ``$x$-world", because of the $dx$. It means that $x$ changes, whereas we can treat $y$ as a constant when computing the integral. So:
             \[\red{\int_{-1}^{1}(2x+3)e^y dx}=e^y\int_{-1}^1(2x+3)dx=e^y\left[x^2+3x\right]_{-1}^1=6e^y\]
     \end{itemize}
 \end{frame}
@@ -33,11 +33,11 @@
     \begin{itemize}
         \item \textbf{Question:} calculate the volume of the 3D body between $z=f(x,y)=(2x+3)e^y$ and the $xy$-plane, when the bounds of $x$ and $y$ are the rectangle $-1\leq x\leq1$ and $0\leq y\leq2$.
             \[V_{\text{tot}}=\int_{0}^{2}\blue{\int_{-1}^{1}(2x+3)e^y dx}dy\]
-        \item We found:
+        \item\pause We found:
             \[\blue{\int_{-1}^{1}(2x+3)e^y dx}=\red{6e^y}\]
-        \item We substitute this into the original double integral:
+        \item\pause We substitute this into the original double integral:
             \[V_{\text{tot}}=\int_{0}^{2}\red{6e^y}dy=6\left[e^y\right]_0^2=6e^2-6\]
-        \item \textbf{Conclusion:} the volume of the 3D body is $\boxed{V_{\text{tot}}=6e^2-6}$.
+        \item\pause \textbf{Conclusion:} the volume of the 3D body is $\boxed{V_{\text{tot}}=6e^2-6}$.
     \end{itemize}
 \end{frame}
 
@@ -45,11 +45,11 @@
 \begin{frame}{Another straightforward double integral}
     \begin{itemize}
         \item \textbf{Question:} calculate the volume of the 3D body between $z=f(x,y)=\frac{x^3}{y}$ and the $xy$-plane, when the bounds of $x$ and $y$ are the rectangle $3\leq x\leq5$ and $2\leq y\leq4$.
-        \item We want to solve the integral
+        \item\pause We want to solve the integral
             \[\int_2^4\int_3^5\frac{x^3}{y}dxdy\]
             We start with solving the inner integral, where $x$ changes and $y$ is constant:
             \[\int_3^5\frac{x^3}{y}dx=\frac{1}{y}\int_3^5x^3dx=\frac{1}{4y}\left[x^4\right]_3^5=\frac{136}{y}\]
-            Now we calculate the full double integral: the volume is
+            \pause Now we calculate the full double integral: the volume is
             \[\int_2^4\int_3^5\frac{x^3}{y}dxdy=\int_2^4\frac{136}{y}dy=136\left[\ln y\right]_2^4=\boxed{136\ln2}\]
     \end{itemize}
 \end{frame}
@@ -68,7 +68,7 @@
     \[D=\{(x,y)\mid a\leq x\leq b,~ g_1(x)\leq y\leq g_2(x)\}\]
         \[\iint_D f(x,y)dA=\int_a^b\int_{g_1(x)}^{g_2(x)}f(x,y)dydx\]
 
-    A type II region goes like this:
+    \pause A type II region goes like this:
     \[D=\{(x,y)\mid c\leq y\leq d,~ h_1(y)\leq x\leq h_2(y)\}\]
         \[\iint_D f(x,y)dA=\int_c^d\int_{h_1(y)}^{h_2(y)}f(x,y)dxdy\]
     \end{theorybox}
@@ -110,7 +110,7 @@
             \end{minipage}\hspace{1.5cm}
             \begin{minipage}{0.47\textwidth}
 
-                Solving the equation $3x^2=x+2$ gives the endpoints $x=-\frac{2}{3}$ and $x=1$, so we get a type I\footnote{The region of integration $D=\{(x,y)\mid-\frac{2}{3}\leq x\leq1,~3x^2\leq y\leq x+2\}$} \vspace{-2mm}\[V=\iint_{D}(x^2+y^2)dA\]\vspace{-2mm}\[\boxed{V=\int_{-2/3}^{1}\int_{3x^2}^{x+2}(x^2+y^2)dydx}\]
+                \pause Solving the equation $3x^2=x+2$ gives the endpoints $x=-\frac{2}{3}$ and $x=1$, so we get a type I\footnote{The region of integration $D=\{(x,y)\mid-\frac{2}{3}\leq x\leq1,~3x^2\leq y\leq x+2\}$} \vspace{-2mm}\[V=\iint_{D}(x^2+y^2)dA\]\vspace{-2mm}\[\boxed{V=\int_{-2/3}^{1}\int_{3x^2}^{x+2}(x^2+y^2)dydx}\]
 To be computed in the next slide.
             \end{minipage}
 
@@ -126,7 +126,7 @@ To be computed in the next slide.
               &=\int_{-2/3}^{1}\left(-9x^6-3x^4+\frac{4}{3}x^3+4x^2+4x+\frac{8}{3}\right)dx\\
               &=\left[-\frac{9}{7}x^7-\frac{3}{5}x^5+\frac{1}{3}x^4+\frac{4}{3}x^3+2x^2+\frac{8}{3}x\right]_{-2/3}^{1} =\boxed{ \frac{3125}{567}}
          \end{align*}
-         So the volume is $\frac{3125}{567}$. \textbf{Note:} in this case, the order of integration matters. We have to first integrate w.r.t. $y$ and then $x$. (Try the other way, it's very hard.)
+         \pause So the volume is $\frac{3125}{567}$. \textbf{Note:} in this case, the order of integration matters. We have to first integrate w.r.t. $y$ and then $x$. (Try the other way, it's very hard.)
 \end{frame}
 
 \begin{frame}{Order of integration can matter}
@@ -134,12 +134,12 @@ To be computed in the next slide.
     \begin{itemize}
         \item \textbf{Question:} evaluate $\iint_De^{y^2}dA$, where the region of integration is
             $D=\{(x,y)\mid 0\leq x\leq1,~5x\leq y\leq5\}$
-        \item \textbf{Step $\pmb{-\infty}$:} write a Type I integral:
+        \item\pause \textbf{Step $\pmb{-\infty}$:} write a Type I integral:
             \[\iint_De^{y^2}dA=\int_0^1\int_{5x}^5e^{y^2}dydx\]
-        Observe that we have a problem: we can't find the antiderivative of $e^{y^2}$.
-        \item \textbf{Step 1:} rewrite the region as\footnote{To see this, draw out the (triangular) region on paper}
+        \pause Observe that we have a problem: we can't find the antiderivative of $e^{y^2}$.
+        \item\pause \textbf{Step 1:} rewrite the region as\footnote{To see this, draw out the (triangular) region on paper}
             $D=\left\{(x,y)\mid 0\leq y\leq5,~0\leq x\leq\frac{y}{5}\right\}$
-        \item \textbf{Step 2:} write a Type II integral and solve it:
+        \item\pause \textbf{Step 2:} write a Type II integral and solve it:
             \begin{align*}
                 \iint_D&e^{y^2}dA=\int_0^5\int_0^{y/5}e^{y^2}dxdy = \int_0^5 \left[xe^{y^2}\right]_{x=0}^{x=y/5}dy=\frac{1}{5}\int_0^5ye^{y^2}dy\\
                 &=\frac{1}{5}\left[\frac{1}{2}e^{y^2}\right]_0^5=\boxed{\frac{1}{10}(e^{25}-1)}
@@ -169,7 +169,7 @@ To be computed in the next slide.
     \[D=\{(x,y)~\mid~y\leq x\leq y+2~\land~1\leq y\leq 3\}\]
     \[\iint_D f(x,y) \red{dA} = \int_{1}^{3}\int_{y}^{y+2}f(x,y)\red{dx\,dy}\]
 
-    For polar regions, we replace $dA$ with $r\cdot dr\,d\theta$ (or $r\cdot d\theta\, dr$). For example:
+    \pause For polar regions, we replace $dA$ with $r\cdot dr\,d\theta$ (or $r\cdot d\theta\, dr$). For example:
     \[D=\{(r,\theta)~\mid~1\leq r\leq 2~\land~0\leq\theta\leq2\pi\}\]
     \[\iint_D f(r,\theta) \red{dA} = \int_{0}^{2\pi}\int_{1}^{2}f(r,\theta)\red{r\,dr\,d\theta}\]
     \red{\textbf{IMPORTANT: it is $dA=r\cdot dr\,d\theta$, NOT $dA=dr\,d\theta$.}} (This factor $r$ is the ``Jacobian", do not forget to write it when doing polar coordinates!)
@@ -229,11 +229,11 @@ To be computed in the next slide.
 \end{axis}
 \end{tikzpicture}
             \end{minipage}\begin{minipage}{0.6\textwidth}
-                    \item \textbf{Step 1:} we can write the region of the plot as
+                    \item\pause \textbf{Step 1:} we can write the region of the plot as
                         \[D=\{(r,\theta)~\mid~ 1\leq r\leq2 ~\land~ -\pi/2\leq\theta\leq\pi/2\}\]
-                    \item \textbf{Step 2:} we have \[f(x,y)=x^4+2x^2y^2+y^4=(x^2+y^2)^2\] Using the identity $x^2+y^2=r^2$, we see that this is equal to $(r^2)^2=r^4$.
+                    \item\pause \textbf{Step 2:} we have \[f(x,y)=x^4+2x^2y^2+y^4=(x^2+y^2)^2\] Using the identity $x^2+y^2=r^2$, we see that this is equal to $(r^2)^2=r^4$.
             \end{minipage}
-        \item \textbf{Step 3:} set up the integral and solve it (don't forget the extra factor $\blue{r}$ due to polar coordinates):
+        \item\pause \textbf{Step 3:} set up the integral and solve it (don't forget the extra factor $\blue{r}$ due to polar coordinates):
             \[V=\int_{-\pi/2}^{\pi/2}\int_1^2 r^4 \blue{r}\,dr\,d\theta=\int_{-\pi/2}^{\pi/2}d\theta\int_1^2 r^5 dr=\pi\left[\frac{1}{6}r^6\right]_1^2=\boxed{\frac{21}{2}\pi}\]
                         So the volume is $\frac{21}{2}\pi$.
     \end{itemize}
@@ -308,7 +308,7 @@ To be computed in the next slide.
     \begin{itemize}
         \item Let's first rewrite the equation of the red boundary into polar coordinates (use $x^2+y^2=r^2$ and $x=r\cos\theta$):
             \[\sqrt{x^2+y^2}=3+\frac{2x}{\sqrt{x^2+y^2}} \quad\red{\rightsquigarrow}\quad r=3+2\cos\theta\]
-        \item The other boundaries are just half-circles with radii $r=1$ and $r=2$.
+        \item\pause The other boundaries are just half-circles with radii $r=1$ and $r=2$.
     \end{itemize}
 
     \vspace{3mm}
@@ -361,8 +361,8 @@ To be computed in the next slide.
 %\end{axis}
 %\end{tikzpicture}
             \end{minipage}\begin{minipage}{0.45\textwidth}
-                We need to split the region; see the picture.\footnote{There are also other ways to split} The angle $\theta$ as in the picture occurs when \[2=3+2\cos\theta\quad\Rightarrow\quad\cos\theta=-\frac{1}{2}\]
-                So we split the integral at $\theta=\frac{2}{3}\pi$.
+                \pause We need to split the region; see the picture.\footnote{There are also other ways to split} The angle $\theta$ as in the picture occurs when \[2=3+2\cos\theta\quad\Rightarrow\quad\cos\theta=-\frac{1}{2}\]
+                \pause So we split the integral at $\theta=\frac{2}{3}\pi$.
                 
             \end{minipage}
 \end{frame}
@@ -374,10 +374,10 @@ To be computed in the next slide.
     \footnotesize
                 In the previous slide, we calculated that the ``split angle'' is $\theta=\frac{2\pi}{3}$.  
 
-            We can write the region of integration as $D=D_1\cup D_2$ (with $D_{1,2}$ as in the picture on previous slide, note that these regions do not overlap except at the boundary):
+            \pause We can write the region of integration as $D=D_1\cup D_2$ (with $D_{1,2}$ as in the picture on previous slide, note that these regions do not overlap except at the boundary):
             \begin{align*}D &=\{(r,\theta) \mid 0\leq\theta\leq\frac{2\pi}{3} \land 1\leq r\leq 3+2\cos\theta \}\\&\qquad\cup\{(r,\theta) \mid \frac{2\pi}{3}\leq\theta\leq\pi \land 1\leq r\leq2\}\end{align*}
 
-            We obtain (since $z=y\sqrt{x^2+y^2}=(r\sin\theta)r=r^2\sin\theta$) \begin{align*}V&=\iint_{D}f(x,y)dA=\iint_{D_1}f(x,y)dA+\iint_{D_2}f(x,y)dA\\&=\int_0^{2\pi/3}\int_1^{3+2\cos\theta}(r^2\sin\theta)r\,dr\,d\theta+\int_{2\pi/3}^{\pi}\int_{1}^2(r^2\sin\theta) r\,dr\,d\theta\end{align*}
+            \pause We obtain (since $z=y\sqrt{x^2+y^2}=(r\sin\theta)r=r^2\sin\theta$) \begin{align*}V&=\iint_{D}f(x,y)dA=\iint_{D_1}f(x,y)dA+\iint_{D_2}f(x,y)dA\\&=\int_0^{2\pi/3}\int_1^{3+2\cos\theta}(r^2\sin\theta)r\,dr\,d\theta+\int_{2\pi/3}^{\pi}\int_{1}^2(r^2\sin\theta) r\,dr\,d\theta\end{align*}
             To be computed in the next slide.
 
 \end{frame}
@@ -385,15 +385,15 @@ To be computed in the next slide.
 \begin{frame}{A harder polar integral (4/4)}
     \footnotesize
     \begin{align*}
-        V&=\int_0^{2\pi/3}\int_1^{3+2\cos\theta}(r^2\sin\theta)r\,dr\,d\theta+\int_{2\pi/3}^{\pi}\int_{1}^2(r^2\sin\theta) r\,dr\,d\theta\\[-1mm]
-         &\qquad\yellow{\text{\scriptsize ($*$ Rewrite integral, see next slide for detailed explanation $*$)}}\\[-1mm]
-         &=\int_0^{2\pi/3}\sin\theta\int_1^{3+2\cos\theta}r^3dr\,d\theta+\int_{2\pi/3}^{\pi}\sin\theta d\theta\int_{1}^2r^3 dr\\[-1mm]
-         &=\int_0^{2\pi/3}\sin\theta\left[\frac{r^4}{4}\right]_1^{3+2\cos\theta}d\theta+\left(\left[-\cos\theta\right]_{2\pi/3}^{\pi} \left[\frac{r^4}{4}\right]_1^2\right)\\[-1mm]
-         &=\frac{1}{4}\int_0^{2\pi/3}\sin\theta\left((3+2\cos\theta)^4-1\right)d\theta+\left(\left[-\cos\theta\right]_{2\pi/3}^{\pi} \left[\frac{r^4}{4}\right]_1^2\right)\\[-1mm]
-         &\qquad\yellow{\text{\scriptsize ($*$ Antiderivative of $(\sin\theta)(3+2\cos\theta)^4$ can be found by subbing $u=3+2\cos\theta$ $*$)}}\\[-1mm]
-         &=\frac{1}{4}\left[-\frac{1}{10}(3+2\cos\theta)^5+\cos\theta\right]_0^{2\pi/3}+\frac{15}{8}=\frac{1}{4}\left(-\frac{37}{10}+\frac{3115}{10}\right)+\frac{15}{8}=\boxed{\frac{3153}{40}}\\
+        \onslide<1->{V&=\int_0^{2\pi/3}\int_1^{3+2\cos\theta}(r^2\sin\theta)r\,dr\,d\theta+\int_{2\pi/3}^{\pi}\int_{1}^2(r^2\sin\theta) r\,dr\,d\theta\\[-1mm]}
+         \onslide<2->{&\qquad\yellow{\text{\scriptsize ($*$ Rewrite integral, see next slide for detailed explanation $*$)}}\\[-1mm]
+         &=\int_0^{2\pi/3}\sin\theta\int_1^{3+2\cos\theta}r^3dr\,d\theta+\int_{2\pi/3}^{\pi}\sin\theta d\theta\int_{1}^2r^3 dr\\[-1mm]}
+         \onslide<3->{&=\int_0^{2\pi/3}\sin\theta\left[\frac{r^4}{4}\right]_1^{3+2\cos\theta}d\theta+\left(\left[-\cos\theta\right]_{2\pi/3}^{\pi} \left[\frac{r^4}{4}\right]_1^2\right)\\[-1mm]}
+         \onslide<4->{&=\frac{1}{4}\int_0^{2\pi/3}\sin\theta\left((3+2\cos\theta)^4-1\right)d\theta+\left(\left[-\cos\theta\right]_{2\pi/3}^{\pi} \left[\frac{r^4}{4}\right]_1^2\right)\\[-1mm]}
+         \onslide<5->{&\qquad\yellow{\text{\scriptsize ($*$ Antiderivative of $(\sin\theta)(3+2\cos\theta)^4$ can be found by subbing $u=3+2\cos\theta$ $*$)}}\\[-1mm]
+         &=\frac{1}{4}\left[-\frac{1}{10}(3+2\cos\theta)^5+\cos\theta\right]_0^{2\pi/3}+\frac{15}{8}=\frac{1}{4}\left(-\frac{37}{10}+\frac{3115}{10}\right)+\frac{15}{8}=\boxed{\frac{3153}{40}}\\}
     \end{align*}
-    So the volume is $\frac{3153}{40}$.
+    \onslide<6->{So the volume is $\frac{3153}{40}$.}
 \end{frame}
 
 \begin{frame}{``Factoring" integrals}\label{integraltrick}
