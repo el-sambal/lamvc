@@ -1,9 +1,3 @@
-\beamer@sectionintoc {1}{Derivatives and applications}{2}{0}{1}
-\beamer@subsectionintoc {1}{1}{Partial derivatives}{2}{0}{1}
-\beamer@subsectionintoc {1}{2}{The gradient \& directional derivative}{12}{0}{1}
-\beamer@subsectionintoc {1}{3}{Tangent planes}{21}{0}{1}
-\beamer@subsectionintoc {1}{4}{Critical points}{32}{0}{1}
-\beamer@sectionintoc {2}{Double integrals}{52}{0}{2}
-\beamer@subsectionintoc {2}{1}{In Cartesian coordinates ($x,y$)}{52}{0}{2}
-\beamer@subsectionintoc {2}{2}{In polar coordinates ($r,\theta $)}{76}{0}{2}
-\beamer@sectionintoc {3}{Triple integrals}{99}{0}{3}
+\beamer@sectionintoc {1}{Double integrals}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{In Cartesian coordinates ($x,y$)}{2}{0}{1}
+\beamer@subsectionintoc {1}{2}{In polar coordinates ($r,\theta $)}{11}{0}{1}

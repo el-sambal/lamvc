@@ -150,14 +150,14 @@ To be computed in the next slide.
 \subsection{In polar coordinates ($r,\theta$)}
 \tableofcontents[currentsection,currentsubsection]
 \begin{frame}{Polar coordinates (1/2)}
-    Sometimes we need to do integrals using \textbf{polar coordinates}, which look like this:
+    Sometimes we need to do integrals using \textbf{polar coordinates}. The polar coordinate system uses $r$ for radial distance and $\theta$ is the angular coordinate. The polar system looks like this:
 
     \vspace{0.3mm}
     \begin{minipage}{0.6\textwidth}
     \input{polar_graph.tex}
     \end{minipage}
     \begin{minipage}{0.35\textwidth}
-        We see the important equations for polar coordinates:
+        We see the important equations for polar coordinates, which we use a lot:
         \[\boxed{x^2+y^2=r^2}\]
         \[\boxed{x=r\cos\theta}\]
         \[\boxed{y=r\sin\theta}\]
@@ -289,9 +289,9 @@ To be computed in the next slide.
 ]
     \addplot[domain=0:pi,samples=100,color=red,data cs=polarrad, name path=f] { 3+2*cos(deg(x))};
     \addlegendentry{\(\sqrt{x^2+y^2}=3+\frac{2x}{\sqrt{x^2+y^2}}\)}
-    \addplot[domain=0:pi,samples=100,color=gray,data cs=polarrad,name path=g] { 2};
+    \addplot[domain=0:pi,samples=100,color=blue,data cs=polarrad,name path=g] { 2};
     \addlegendentry{\({x^2+y^2}=4\)}
-    \addplot[domain=0:pi,samples=100,color=blue,data cs=polarrad,name path=h] { 1};
+    \addplot[domain=0:pi,samples=100,color=teal,data cs=polarrad,name path=h] { 1};
     \addlegendentry{\({x^2+y^2}=1\)}
     \addplot[teal!17, opacity=0.9] fill between[of=g and f, split];
     \addplot[teal!17, opacity=0.9] fill between[of=g and h];
@@ -307,8 +307,8 @@ To be computed in the next slide.
 \begin{frame}{A harder polar integral (2/4)}
     \begin{itemize}
         \item Let's first rewrite the equation of the red boundary into polar coordinates (use $x^2+y^2=r^2$ and $x=r\cos\theta$):
-            \[\sqrt{x^2+y^2}=3+\frac{2x}{\sqrt{x^2+y^2}} \quad\red{\rightsquigarrow}\quad r=3+2\cos\theta\]
-        \item\pause The other boundaries are just half-circles with radii $r=1$ and $r=2$.
+            \[\sqrt{x^2+y^2}=3+\frac{2x}{\sqrt{x^2+y^2}} \quad\red{\rightsquigarrow}\quad \pmb{\red{r=3+2\cos\theta}}\]
+        \item\pause The other boundaries are just half-circles with radii $r=1$ and $\pmb{\blue{r=2}}$.
     \end{itemize}
 
     \vspace{3mm}
@@ -323,11 +323,12 @@ To be computed in the next slide.
     xmin=-3,ymin=-3,
     xmax=7,ymax=4,
     legend pos=outer north east,
-    legend style={minimum height=7mm}
+    legend style={minimum height=7mm},
+   % every axis plot/.append style={ultra thick}
 ]
-    \addplot[domain=0:pi,samples=100,color=red,data cs=polarrad, name path=f] { 3+2*cos(deg(x))};
-    \addplot[domain=0:pi,samples=300,color=gray,data cs=polarrad,name path=g] { 2};
-    \addplot[domain=0:pi,samples=300,color=blue,data cs=polarrad,name path=h] { 1};
+    \addplot[domain=0:pi,samples=100,color=red,data cs=polarrad, name path=f, style={ultra thick}] { 3+2*cos(deg(x))};
+    \addplot[domain=0:pi,samples=300,color=blue,data cs=polarrad,name path=g, style={ultra thick}] { 2};
+    \addplot[domain=0:pi,samples=300,color=teal,data cs=polarrad,name path=h] { 1};
     \addplot[domain=-2:7,samples=300,draw=none,name path=j] { 0};
     \addplot[domain=-1:0,samples=300,color=blue,name path=i] {-sqrt(3)*x};
     \addplot[magenta!17, opacity=0.9] fill between[of=h and f,
@@ -361,7 +362,7 @@ To be computed in the next slide.
 %\end{axis}
 %\end{tikzpicture}
             \end{minipage}\begin{minipage}{0.45\textwidth}
-                \pause We need to split the region; see the picture.\footnote{There are also other ways to split} The angle $\theta$ as in the picture occurs when \[2=3+2\cos\theta\quad\Rightarrow\quad\cos\theta=-\frac{1}{2}\]
+                \pause We need to split the region; see the picture.\footnote{There are also other ways to split} The angle $\theta$ as in the picture occurs when $\blue{r_{\text{blue}}}=\red{r_{\text{red}}}$ \[\pmb{\blue{2}=\red{3+2\cos\theta}}\quad\Rightarrow\quad\cos\theta=-\frac{1}{2}\]
                 \pause So we split the integral at $\theta=\frac{2}{3}\pi$.
                 
             \end{minipage}
@@ -377,7 +378,7 @@ To be computed in the next slide.
             \pause We can write the region of integration as $D=D_1\cup D_2$ (with $D_{1,2}$ as in the picture on previous slide, note that these regions do not overlap except at the boundary):
             \begin{align*}D &=\{(r,\theta) \mid 0\leq\theta\leq\frac{2\pi}{3} \land 1\leq r\leq 3+2\cos\theta \}\\&\qquad\cup\{(r,\theta) \mid \frac{2\pi}{3}\leq\theta\leq\pi \land 1\leq r\leq2\}\end{align*}
 
-            \pause We obtain (since $z=y\sqrt{x^2+y^2}=(r\sin\theta)r=r^2\sin\theta$) \begin{align*}V&=\iint_{D}f(x,y)dA=\iint_{D_1}f(x,y)dA+\iint_{D_2}f(x,y)dA\\&=\int_0^{2\pi/3}\int_1^{3+2\cos\theta}(r^2\sin\theta)r\,dr\,d\theta+\int_{2\pi/3}^{\pi}\int_{1}^2(r^2\sin\theta) r\,dr\,d\theta\end{align*}
+                \pause We obtain (since $z=\red{f(x,y)}=y\sqrt{x^2+y^2}=(r\sin\theta)r=\red{r^2\sin\theta}$) \begin{align*}V&=\iint_{D}\red{f(x,y)}\blue{dA}=\iint_{D_1}\red{f(x,y)}\blue{dA}+\iint_{D_2}\red{f(x,y)}\blue{dA}\\&=\int_0^{2\pi/3}\int_1^{3+2\cos\theta}\red{(r^2\sin\theta)}\blue{r\,dr\,d\theta}+\int_{2\pi/3}^{\pi}\int_{1}^2\red{(r^2\sin\theta)} \blue{r\,dr\,d\theta}\end{align*}
             To be computed in the next slide.
 
 \end{frame}
