@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.2)  14 JUN 2023 06:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.6.2)  14 JUN 2023 09:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1324,1055 +1324,140 @@ enefit from \pgfplotsset{compat=1.18} (current compat level: 1.9).
 
 (./main.nav) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-] (./calc.tex (./double-integ.tex
+] (./calc.tex (./triple-integ.tex (./main.toc)
+<smile.png, id=87, 125.9907pt x 93.4692pt>
+File: smile.png Graphic file (type png)
+<use smile.png>
+Package pdftex.def Info: smile.png  used on input line 14.
+(pdftex.def)             Requested size: 125.99039pt x 93.46896pt.
+ [2
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2.
+] [3 <./smile.png>]
+File: smile.png Graphic file (type png)
+<use smile.png>
+Package pdftex.def Info: smile.png  used on input line 14.
+(pdftex.def)             Requested size: 125.99039pt x 93.46896pt.
+ [4
+
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 28.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 2.
-
-(./main.toc
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 28.
+
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+stmry on input line 2
-.
+8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
 LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on inp
-ut line 2.
+ut line 28.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-))
-[2
+)
+[5
 
-] [3] [4
-
-] [5
-
-] (./double-integrals-intuition-graph.tex) [6
+] [6
 
 ] [7
 
-]
-Package pgfplots info on input line 117: fill between: activating layered graph
-ics
-\pgf@layerbox@axis background=\box119
-\pgf@layerboxsaved@axis background=\box120
-\pgf@layerbox@axis grid=\box121
-\pgf@layerboxsaved@axis grid=\box122
-\pgf@layerbox@axis ticks=\box123
-\pgf@layerboxsaved@axis ticks=\box124
-\pgf@layerbox@axis lines=\box125
-\pgf@layerboxsaved@axis lines=\box126
-\pgf@layerbox@axis tick labels=\box127
-\pgf@layerboxsaved@axis tick labels=\box128
-\pgf@layerbox@pre main=\box129
-\pgf@layerboxsaved@pre main=\box130
-\pgf@layerbox@axis descriptions=\box131
-\pgf@layerboxsaved@axis descriptions=\box132
-\pgf@layerbox@axis foreground=\box133
-\pgf@layerboxsaved@axis foreground=\box134
-Package pgfplots info on input line 117: Setting layers 'axis background,axis g
-rid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis
- foreground'...
-
-Overfull \hbox (41.1274pt too wide) in paragraph at lines 117--117
-[][] 
- []
-
-[8
+] [8
 
 ] [9
 
 ] [10
 
-]
+] [11
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 150.
+] [12
 
+] [13
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\theta' on input line 150.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 150.
-
-(./main.toc) (./polar_graph.tex)
-Overfull \hbox (1.39758pt too wide) in paragraph at lines 34--165
-[][]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 34--165
-
- []
-
-
-Underfull \hbox (badness 5260) in paragraph at lines 165--165
-[]\OT1/cmss/m/n/10.95 We see the im-por-tant
- []
-
-[11
-
-] [12] [13
+] [14
 
 ]
-NOTE: coordinate (1Y1.00164845e0],3Y0.0e0]) has been dropped because it is unbo
-unded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.0166983e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.0317482e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.0467981e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.061848e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.0768979e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.0919478e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.1069977e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.1220476e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.1370975e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.1521474e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.1671973e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.1822472e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.197297e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.212347e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.2273969e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.2424467e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.2574966e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.2725465e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.2875964e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.3026463e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.3176962e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.3327461e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.347796e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.3628459e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.3778958e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.3929457e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.4079956e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.4230455e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.4380954e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.4531453e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.4681952e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.4832451e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.498295e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.5133449e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.5283948e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.5434447e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.5584946e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.5735445e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.5885944e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.6036443e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.6186942e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.633744e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.648794e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.6638438e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.6788937e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.6939436e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.7089935e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.7240434e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.7390933e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.7541432e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.7691931e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.784243e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.7992929e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.8143428e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.8293927e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.8444426e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.8594925e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.8745424e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.8895923e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.9046422e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.9196921e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.934742e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.9497919e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.9648418e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.9798917e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.9949416e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.0099915e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.0250414e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.0400912e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.0551411e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.070191e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.085241e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1002908e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1153407e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1303906e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1454405e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1604904e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1755403e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1905902e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.2056401e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.22069e0],3Y0.0e0]) has been dropped because it is unbound
-ed (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.2357399e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.2507898e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.2658397e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.2808896e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.2959395e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.3109894e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.3260393e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.3410892e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.356139e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.371189e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.3862389e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.4012888e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.4163387e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.4313885e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.4464384e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.4614883e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.4765382e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.4915881e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.506638e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.521688e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.5367378e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.5517877e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.5668376e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.5818875e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.5969374e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.6119873e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.6270372e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.6420871e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.657137e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.6721869e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.6872368e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.7022867e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.7173366e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.7323865e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.7474364e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.7624863e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.7775362e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.792586e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.807636e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.8226859e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.8377357e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.8527856e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.8678355e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.8828854e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.8979353e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.9129852e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.9280351e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.943085e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.9581349e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.9731848e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.9882347e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.0032846e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.0183345e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.0333844e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.0484343e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.0634842e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.0785341e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.093584e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.1086339e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.1236838e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.1387337e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.1537836e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.1688335e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.1838834e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.1989333e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.2139832e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.229033e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.244083e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.2591328e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.2741827e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.2892326e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.3042825e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.3193324e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.3343823e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.3494322e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.3644821e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.379532e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.3945819e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.4096318e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.4246817e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.4397316e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.4547815e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.4698314e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.4848813e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.4999312e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.0099953e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.023373e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.0367506e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.0501283e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.063506e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.0768837e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.0902614e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.103639e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1170168e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1303944e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1437721e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1571498e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1705275e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1839052e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1972829e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.2106606e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.2240382e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.237416e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.2507936e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.2641713e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.277549e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.2909267e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.3043044e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.317682e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.3310597e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.3444374e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.3578151e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.3711928e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.3845705e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.3979482e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.4113258e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.4247035e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.4380812e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.4514589e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.4648366e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.4782143e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.491592e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.5049696e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.5183473e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.531725e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.5451027e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.5584804e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.571858e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.5852357e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.5986134e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.6119911e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.6253688e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.6387465e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.6521242e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.6655019e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.6788795e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.6922572e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.7056349e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.7190126e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.7323903e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.745768e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.7591457e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.7725233e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.785901e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.7992787e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.8126564e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.8260341e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.8394118e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.8527895e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.8661671e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.8795448e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.8929225e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.9063002e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.9196779e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.9330556e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.9464333e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.959811e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.9731886e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.9865663e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.999944e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.00164845e0],3Y0.0e0]) has been dropped because it is unbo
-unded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.0166983e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.0317482e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.0467981e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.061848e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.0768979e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.0919478e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.1069977e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.1220476e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.1370975e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.1521474e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.1671973e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.1822472e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.197297e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.212347e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.2273969e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.2424467e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.2574966e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.2725465e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.2875964e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.3026463e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.3176962e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.3327461e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.347796e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.3628459e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.3778958e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.3929457e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.4079956e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.4230455e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.4380954e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.4531453e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.4681952e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.4832451e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.498295e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.5133449e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.5283948e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.5434447e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.5584946e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.5735445e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.5885944e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.6036443e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.6186942e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.633744e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.648794e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.6638438e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.6788937e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.6939436e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.7089935e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.7240434e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.7390933e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.7541432e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.7691931e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.784243e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.7992929e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.8143428e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.8293927e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.8444426e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.8594925e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.8745424e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.8895923e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.9046422e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.9196921e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.934742e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.9497919e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.9648418e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.9798917e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y1.9949416e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.0099915e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.0250414e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.0400912e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.0551411e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.070191e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.085241e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1002908e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1153407e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1303906e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1454405e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1604904e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1755403e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1905902e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.2056401e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.22069e0],3Y0.0e0]) has been dropped because it is unbound
-ed (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.2357399e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.2507898e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.2658397e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.2808896e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.2959395e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.3109894e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.3260393e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.3410892e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.356139e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.371189e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.3862389e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.4012888e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.4163387e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.4313885e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.4464384e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.4614883e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.4765382e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.4915881e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.506638e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.521688e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.5367378e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.5517877e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.5668376e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.5818875e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.5969374e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.6119873e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.6270372e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.6420871e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.657137e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.6721869e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.6872368e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.7022867e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.7173366e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.7323865e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.7474364e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.7624863e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.7775362e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.792586e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.807636e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.8226859e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.8377357e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.8527856e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.8678355e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.8828854e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.8979353e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.9129852e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.9280351e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.943085e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.9581349e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.9731848e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.9882347e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.0032846e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.0183345e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.0333844e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.0484343e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.0634842e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.0785341e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.093584e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.1086339e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.1236838e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.1387337e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.1537836e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.1688335e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.1838834e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.1989333e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.2139832e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.229033e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.244083e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.2591328e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.2741827e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.2892326e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.3042825e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.3193324e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.3343823e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.3494322e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.3644821e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.379532e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.3945819e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.4096318e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.4246817e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.4397316e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.4547815e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.4698314e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.4848813e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y3.4999312e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.008328e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.0200334e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.0317389e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.0434444e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.0551498e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.0668553e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.0785608e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.0902663e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1019717e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1136772e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1253827e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1370882e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1487936e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1604991e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1722046e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.18391e0],3Y0.0e0]) has been dropped because it is unbound
-ed (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.1956155e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.207321e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.2190265e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.230732e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.2424374e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.2541429e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.2658484e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.2775539e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.2892593e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.3009648e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.3126703e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.3243758e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.3360812e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.3477867e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.3594922e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.3711977e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.3829031e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.3946086e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.4063141e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.4180196e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.429725e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.4414305e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.453136e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.4648415e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.476547e0],3Y0.0e0]) has been dropped because it is unboun
-ded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.4882524e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-NOTE: coordinate (1Y2.4999579e0],3Y0.0e0]) has been dropped because it is unbou
-nded (in y). (see also unbounded coords=jump). 
-Package pgfplots info on input line 240: fill between: activating layered graph
-ics
-Package pgfplots info on input line 240: Setting layers 'axis background,axis g
-rid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis
- foreground'...
-
-Overfull \hbox (4.78944pt too wide) in paragraph at lines 240--240
-[]$[]$$[]$  
- []
-
-[14
-
-]
-Package pgfplots info on input line 304: fill between: activating layered graph
-ics
-Package pgfplots info on input line 304: Setting layers 'axis background,axis g
-rid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis
- foreground'...
+<sph.png, id=546, 123.8226pt x 104.3097pt>
+File: sph.png Graphic file (type png)
+<use sph.png>
+Package pdftex.def Info: sph.png  used on input line 50.
+(pdftex.def)             Requested size: 160.96933pt x 135.60257pt.
  [15
 
-]
-Package pgfplots info on input line 369: fill between: activating layered graph
-ics
-Package pgfplots info on input line 369: Setting layers 'axis background,axis g
-rid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis
- foreground'...
-
-Overfull \hbox (5.74367pt too wide) detected at line 369
-[]  \OMS/cmsy/m/n/10.95 )  [] \OML/cmm/m/it/10.95 ^^R \OT1/cmss/m/n/10.95 = \OM
-S/cmsy/m/n/10.95 ^^@[]
- []
-
-[16
+ <./sph.png>]
+File: sph.png Graphic file (type png)
+<use sph.png>
+Package pdftex.def Info: sph.png  used on input line 50.
+(pdftex.def)             Requested size: 160.96933pt x 135.60257pt.
+ [16
 
 ] [17
 
-] [18
+]
+[18
 
 ] [19
+
+] [20
+
+]
+
+LaTeX Warning: Reference `integraltrick' on page 21 undefined on input line 79.
+
+
+[21
+
+]
+
+LaTeX Warning: Reference `integraltrick' on page 22 undefined on input line 79.
+
+
+[22
+
+]
+
+LaTeX Warning: Reference `integraltrick' on page 23 undefined on input line 79.
+
+
+[23
+
+]
+
+LaTeX Warning: Reference `integraltrick' on page 24 undefined on input line 79.
+
+
+[24
+
+]
+Overfull \vbox (2.1642pt too high) detected at line 98
+ []
+
+[25
+
+]
+Overfull \vbox (2.1642pt too high) detected at line 98
+ []
+
+[26
+
+]
+Overfull \vbox (2.1642pt too high) detected at line 98
+ []
+
+[27
+
+]
+Overfull \vbox (2.1642pt too high) detected at line 98
+ []
+
+[28
 
 ]))
 \tf@nav=\write6
@@ -2385,41 +1470,42 @@ S/cmsy/m/n/10.95 ^^@[]
 \openout8 = `main.snm'.
 
  (./main.aux)
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C6479536A83263E07CB52EAFB5DE21F0;546.
+(rerunfilecheck)             Checksum: 965304DB0E0C566B1538C95040522531;126.
  ) 
 Here is how much of TeX's memory you used:
- 43464 strings out of 478287
- 1046185 string characters out of 5849290
- 1690328 words of memory out of 5000000
- 60770 multiletter control sequences out of 15000+600000
- 485462 words of font info for 88 fonts, out of 8000000 for 9000
+ 42574 strings out of 478287
+ 1021966 string characters out of 5849290
+ 1399770 words of memory out of 5000000
+ 59872 multiletter control sequences out of 15000+600000
+ 481372 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,19n,122p,1106b,2373s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss
-bx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi8.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/symbols/msam10.pfb>
-Output written on main.pdf (19 pages, 291164 bytes).
+ 128i,19n,122p,726b,779s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{integraltrick} has been referenced but does not e
+xist, replaced by a fixed one
+
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
+share/texlive/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmss9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi9.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on main.pdf (28 pages, 293133 bytes).
 PDF statistics:
- 638 PDF objects out of 1000 (max. 8388607)
- 535 compressed objects within 6 object streams
- 43 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1119 PDF objects out of 1200 (max. 8388607)
+ 1019 compressed objects within 11 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
 

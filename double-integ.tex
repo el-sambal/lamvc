@@ -59,6 +59,55 @@
 
 \end{frame}
 
+\begin{frame}{General regions: more intuition}
+    {\footnotesize Double integrals are like a for-loop. Suppose we have this question: calculate the volume of the 3D body between the function $z=f(x,y)$ and the $xy$-plane, above the region $D$ enclosed by the parabola $y=3x^2$ and the line $y=x+2$.  Given that the intersection points are $(-\frac{2}{3},\frac{4}{3})$ and $(1,3)$, what would you do?}
+
+            \begin{minipage}{0.4\textwidth}
+\begin{tikzpicture}
+\begin{axis}[
+    xlabel = \(x\),
+    ylabel = {\(y\)},
+    axis lines=middle,
+    height=4.8cm,
+    width=5.6cm,
+]
+\addplot [
+    domain=-2:2, 
+    samples=100, 
+    color=red,
+    name path=f,
+]
+{3*x^2};
+    \addlegendentry{\(3x^2\)}
+\addplot [
+    domain=-2:2, 
+    samples=100, 
+    color=blue,
+    name path=g,
+    ]
+    {x+2};
+    \addlegendentry{\(x+2\)}
+
+    \addplot[teal!10, opacity=0.9] fill between[of=f and g, soft clip={domain=-0.667:1}];
+\node at (axis cs:0.2,1.2) {$D$};
+\end{axis}
+\end{tikzpicture}
+            \end{minipage}\pause
+            \begin{minipage}{0.59\textwidth}
+                Our intuition would be to say:
+                \begin{align*}
+                    &\texttt{Volume}=0;~\Delta x=0.001;~\Delta y=0.001;\\[-0.3mm]
+                    &\textbf{for} (x=-2/3;~x<1;~x \mathrel{+}= \Delta x) \\[-0.7mm]
+                    &\quad\textbf{for} (y=3x^2;~y<x+2;~y \mathrel{+}= \Delta y) \\[-0.2mm]
+                    &\quad\quad~\texttt{Volume} \mathrel{+}= f(x,y)*\Delta y*\Delta x;
+                \end{align*}
+            \end{minipage}
+
+            \pause\[\text{This program corresponds to}~~ V=\int_{-2/3}^{1}\int_{3x^2}^{x+2}f(x,y)dydx\]
+
+            Thinking this way can help you determine if you need a type I or II integral.
+\end{frame}
+
 \begin{frame}{General regions}
     %The question is often: ``find the volume of the solid body between the xy-plane and the function $f(x,y)$ which is above the \textit{region .....}"
 
@@ -120,13 +169,13 @@ To be computed in the next slide.
 \small
          We calculate the integral from the previous slide to find the volume:
          \begin{align*}
-             V&=\int_{-2/3}^{1}\int_{3x^2}^{x+2}(x^2+y^2)dydx=\int_{-2/3}^{1}\left[x^2y+\frac{y^3}{3}\right]_{y=3x^2}^{y=x+2}dx\\
-              &=\int_{-2/3}^{1}\left[x^2(x+2)+\frac{1}{3}(x+2)^3-x^2\cdot3x^2-\frac{1}{3}(3x^2)^3\right]dx\\
-              &=\int_{-2/3}^{1}\left[x^3+2x^2+\frac{1}{3}\left(x^3+6x^2+12x+8\right)-3x^4-9x^6\right]dx\\
-              &=\int_{-2/3}^{1}\left(-9x^6-3x^4+\frac{4}{3}x^3+4x^2+4x+\frac{8}{3}\right)dx\\
-              &=\left[-\frac{9}{7}x^7-\frac{3}{5}x^5+\frac{1}{3}x^4+\frac{4}{3}x^3+2x^2+\frac{8}{3}x\right]_{-2/3}^{1} =\boxed{ \frac{3125}{567}}
+             \onslide<1->{V&=\int_{-2/3}^{1}\int_{3x^2}^{x+2}(x^2+y^2)dydx=\int_{-2/3}^{1}\left[x^2y+\frac{y^3}{3}\right]_{y=3x^2}^{y=x+2}dx\\}
+             \onslide<2->{&=\int_{-2/3}^{1}\left[x^2(x+2)+\frac{1}{3}(x+2)^3-x^2\cdot3x^2-\frac{1}{3}(3x^2)^3\right]dx\\}
+            \onslide<3->{&=\int_{-2/3}^{1}\left[x^3+2x^2+\frac{1}{3}\left(x^3+6x^2+12x+8\right)-3x^4-9x^6\right]dx\\}
+              \onslide<4->{&=\int_{-2/3}^{1}\left(-9x^6-3x^4+\frac{4}{3}x^3+4x^2+4x+\frac{8}{3}\right)dx\\}
+            \onslide<5->{&=\left[-\frac{9}{7}x^7-\frac{3}{5}x^5+\frac{1}{3}x^4+\frac{4}{3}x^3+2x^2+\frac{8}{3}x\right]_{-2/3}^{1} =\boxed{ \frac{3125}{567}}}
          \end{align*}
-         \pause So the volume is $\frac{3125}{567}$. \textbf{Note:} in this case, the order of integration matters. We have to first integrate w.r.t. $y$ and then $x$. (Try the other way, it's very hard.)
+         \onslide<6->{ So the volume is $\frac{3125}{567}$. \textbf{Note:} in this case, the order of integration matters. We have to first integrate w.r.t. $y$ and then $x$. (Try the other way, it's very hard.)}
 \end{frame}
 
 \begin{frame}{Order of integration can matter}

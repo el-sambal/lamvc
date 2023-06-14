@@ -1,3 +1,1 @@
-\beamer@sectionintoc {1}{Double integrals}{2}{0}{1}
-\beamer@subsectionintoc {1}{1}{In Cartesian coordinates ($x,y$)}{2}{0}{1}
-\beamer@subsectionintoc {1}{2}{In polar coordinates ($r,\theta $)}{11}{0}{1}
+\beamer@sectionintoc {1}{Triple integrals}{2}{0}{1}

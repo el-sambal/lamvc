@@ -27,6 +27,20 @@
     \[\red{\implies}\iiint_E f(x,y,z)dV = \int_0^3\int_0^{y^2}\int_{0}^{xy+1}f(x,y,z)dzdxdy\]
 \end{frame}
 
+\begin{frame}{Example triple integral}
+    \footnotesize
+    \textbf{Question:} evaluate $\int_0^3\int_0^{z^2}\int_0^{y-z}(3x-2y)\,dx\,dy\,dz$.
+
+    \textbf{Solution:}
+    \begin{align*}
+        \onslide<2->{\int_0^3&\int_0^{z^2}\int_0^{y-z}(3x-2y)\,dx\,dy\,dz = \int_0^3\int_0^{z^2}\left[\frac{3}{2}x^2-2xy\right]_{x=0}^{x=y-z}\,dy\,dz\\}
+        \onslide<3->{&= \int_0^3\int_0^{z^2}\left( \frac{3}{2}(y-z)^2-2(y-z)y \right)\,dy\,dz\\}
+        \onslide<4->{&= \int_0^3\int_0^{z^2}\left( -\frac{1}{2}y^2-zy+\frac{3}{2}z^2 \right)\,dy\,dz\\}
+        \onslide<5->{&= \int_0^3 \left[-\frac{1}{6}y^3-\frac{1}{2}zy^2+\frac{3}{2}z^2y\right]_{y=0}^{y=z^2} dz\\}
+        \onslide<6->{&= \int_0^3 \left(-\frac{1}{6}z^6-\frac{1}{2}z^5+\frac{3}{2}z^4\right)dz\\}
+        \onslide<7->{&= \left[-\frac{1}{42}z^7-\frac{1}{12}z^6+\frac{3}{10}z^5\right]_0^3~=~\boxed{-\frac{5589}{140}}\\}
+    \end{align*}
+\end{frame}
 
 \begin{frame}{Spherical coordinates}
     In the 2D world, we have polar coordinates.\pause In 3D, we have \textbf{spherical coordinates} $(\rho,\theta,\phi)$.
