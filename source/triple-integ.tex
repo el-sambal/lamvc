@@ -67,13 +67,13 @@
     \textbf{Question:} evaluate $\iiint_E xe^{x^2+y^2+z^2}\,dV$, where $E$ is the region with $x^2+y^2+z^2\leq4$ and $0\leq y\leq x$.
 
     \pause\textbf{Step 1:} do geometry; write $E$ in spherical coordinates:
-    \[E=\left\{(\rho,\theta,\phi) \mid 0\leq\rho\leq2,~0\leq\theta\leq\frac{\pi}{4},~-\frac{\pi}{2}\leq\phi\leq\frac{\pi}{2}\right\}\]
+    \[E=\left\{(\rho,\theta,\phi) \mid 0\leq\rho\leq2,~0\leq\theta\leq\frac{\pi}{4},~0\leq\phi\leq\pi\right\}\]
 
     \pause\textbf{Step 2:} since $x=\rho\sin\phi\cos\theta$ and $x^2+y^2+z^2=\rho^2$ in spherical coordinates, we can rewrite the integrand as $\rho\sin\phi\cos\theta \,e^{\rho^2}$.
 
     \pause\textbf{Step 3:} set up the integral. Do not forget the Jacobian $\blue{\rho^2\sin\phi}$ for spherical coordinates!
-    \[\iiint_E xe^{x^2+y^2+z^2}\,dV = \int_{-\pi/2}^{\pi/2}\int_0^{\pi/4}\int_0^2 \rho\sin\phi\cos\theta\,e^{\rho^2}\blue{\rho^2\sin\phi}\,d\rho\,d\theta\,d\phi\]
-    \[=\teal{\left(\int_{-\pi/2}^{\pi/2}\sin^2\phi\,d\phi\right)}\yellow{\left(\int_0^{\pi/4}\cos\theta\,d\theta\right)}\red{\left(\int_0^2\rho^3\,e^{\rho^2}\,d\rho\right)}
+    \[\iiint_E xe^{x^2+y^2+z^2}\,dV = \int_0^{\pi}\int_0^{\pi/4}\int_0^2 \rho\sin\phi\cos\theta\,e^{\rho^2}\blue{\rho^2\sin\phi}\,d\rho\,d\theta\,d\phi\]
+    \[=\teal{\left(\int_{0}^{\pi}\sin^2\phi\,d\phi\right)}\yellow{\left(\int_0^{\pi/4}\cos\theta\,d\theta\right)}\red{\left(\int_0^2\rho^3\,e^{\rho^2}\,d\rho\right)}
  \]
     We were able to write the long integral as a product of three single-variable integrals by using the idea from slide \blue{\ref{integraltrick}}.
 \end{frame}
@@ -82,17 +82,17 @@
     \footnotesize
     \textbf{Step 4:} solve the integral.
     \[
-        \iiint_E xe^{x^2+y^2+z^2}\,dV =\teal{\left(\int_{-\pi/2}^{\pi/2}\sin^2\phi\,d\phi\right)}\yellow{\left(\int_0^{\pi/4}\cos\theta\,d\theta\right)}\red{\left(\int_0^2\rho^3\,e^{\rho^2}\,d\rho\right)}
+        \iiint_E xe^{x^2+y^2+z^2}\,dV =\teal{\left(\int_{0}^{\pi}\sin^2\phi\,d\phi\right)}\yellow{\left(\int_0^{\pi/4}\cos\theta\,d\theta\right)}\red{\left(\int_0^2\rho^3\,e^{\rho^2}\,d\rho\right)}
     \]
 
     \pause The red one can be solved by subbing $u=\rho^2$ (such that $du=2\rho \,d\rho$), followed by integration by parts:
     \[\red{\int_0^2\rho^3\,e^{\rho^2}\,d\rho=\frac{1}{2}\int_{0^2}^{2^2}ue^u\,du=\frac{1}{2}\left(\left[ue^u\right]_0^4-\int_0^4e^u\,du\right)=\frac{1}{2}(4e^4-(e^4-1))=\frac{3e^4+1}{2}}\]
     \pause The green one can be solved by using $\sin^2\phi=\frac{1}{2}\left(1-\cos2\phi\right)$:
-    \[\teal{\int_{-\pi/2}^{\pi/2}\sin^2\phi\,d\phi=\frac{1}{2}\int_{-\pi/2}^{\pi/2}(1-\cos2\phi)\,d\phi=\frac{\pi}{2}-\frac{1}{2}\left[\frac{1}{2}\sin2\phi\right]_{-\pi/2}^{\pi/2}=\frac{\pi}{2}}\]
+    \[\teal{\int_{0}^{\pi}\sin^2\phi\,d\phi=\frac{1}{2}\int_{0}^{\pi}(1-\cos2\phi)\,d\phi=\frac{\pi}{2}-\frac{1}{2}\left[\frac{1}{2}\sin2\phi\right]_{0}^{\pi}=\frac{\pi}{2}}\]
     \pause The orange one is relatively straightforward, so the answer is:
 
     \[
         \iiint_E xe^{x^2+y^2+z^2}\,dV =\teal{\left(\frac{\pi}{2}\right)}\yellow{\left(\frac{1}{2}\sqrt{2}\right)}\red{\left(\frac{3e^4+1}{2}\right)}=\boxed{\frac{\pi\sqrt2}{8}(3e^4+1)}
     \]
-\scriptsize    P.S. The need to use substitution, integration by parts and a trigonometric identity makes this question harder than exam-level (no warranty). 
+\scriptsize    P.S. The need to use substitution, integration by parts and a trigonometric identity makes this question harder than exam-level (no warranty).
 \end{frame}
